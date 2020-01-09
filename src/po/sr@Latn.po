@@ -1,0 +1,256 @@
+# Serbian translation of gnome-pilot-conduits
+# Courtesy of Prevod.org team (http://www.prevod.org/) -- 2003.
+#
+# This file is distributed under the same license as the gnome-pilot-conduits package.
+#
+# Maintainer: Dejan Matijević <dejan@ns.sympatico.ca>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pilot-conduits\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2003-07-14 08:28+0200\n"
+"Last-Translator: Dejan Matijević <dejan@ns.sympatico.ca>\n"
+"Language-Team: Serbian (sr) <serbiangnome-lista@nongnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr "Odaberite mbox datoteku ili MH direktorijum"
+
+#. send_action option menu
+#: email/email_conduit.c:787
+#, fuzzy
+msgid "Send Action:"
+msgstr "Radnja slanja"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr "Izbrišite sa PDA"
+
+#: email/email_conduit.c:796
+msgid "File on PDA"
+msgstr "Datoteka na PDA"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "Pošiljalac:"
+
+#. sendmail entry
+#: email/email_conduit.c:815
+#, fuzzy
+msgid "Sendmail command:"
+msgstr "Sendmail naredba"
+
+#. receive_action option menu
+#: email/email_conduit.c:823
+#, fuzzy
+msgid "Receive Action:"
+msgstr "Radnja primanja"
+
+#: email/email_conduit.c:827
+msgid "Copy from Inbox"
+msgstr "Kopirajte  iz sandučeta"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr "Uklonite iz sandučeta"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr "Okrenuto sanduče"
+
+#. mbox_file entry
+#: email/email_conduit.c:848
+#, fuzzy
+msgid "Copy mail from:"
+msgstr "Kopirajte obrazac za poštu"
+
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "Nepoznata novčana oznaka"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+"Nije preciziran direktorijum.   Pokrenite prvo expense conduit capplet."
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "Dan/Mesec/Godina"
+
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "Mesec/Dan/Godina"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "Od 1970-01-01 (u sec)"
+
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "Lokalni oblik"
+
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "Jednostavno"
+
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "Skupina"
+
+#: expense/expense_conduit.c:478
+#, fuzzy
+msgid "Expense Directory:"
+msgstr "Direktorijum izdataka"
+
+#: expense/expense_conduit.c:479
+#, fuzzy
+msgid "Directory Mode:"
+msgstr "Mod direktorijuma"
+
+#: expense/expense_conduit.c:480
+#, fuzzy
+msgid "File Mode:"
+msgstr "Mod datoteke"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+#, fuzzy
+msgid "Date Format:"
+msgstr "Format datuma"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+#, fuzzy
+msgid "Output Format:"
+msgstr "Format prosleđivanja"
+
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "Direktorijum podsetaka:"
+
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "Ignoriši početak:"
+
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "Ignoriši kraj:"
+
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "Mod direktorijuma:"
+
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "Mod datoteka:"
+
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "Mod tajnih datoteka:"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr ""
+"Nije preciziran direktorijum.  Pokrenite prvo memo_file conduit capplet."
+
+#: mal-conduit/src/mal-conduit.c:146
+msgid "Already synchronized today"
+msgstr "Već sinhronizovano danas"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr "Sinhronizujte MAL samo jednom dnevno"
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "Eskil Heyn Olsen <deity@eskil.dk>"
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+#, fuzzy
+msgid "Gnome Pilot MAL conduit"
+msgstr "Gpilotd memo conduit"
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+#, fuzzy
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "©1998 Zadužbina za Slobodni Softver"
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-nepoznat.xpm"
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "Uključeno"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "Oblik voda"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"Pilot nije podešen, posetite\n"
+"prvo 'Pilot Link Properties' capplet."
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+#, fuzzy
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "Nomože da priključi the GnomePilot Daemon"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr "Gpilotd memo conduit"
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "©1998 Zadužbina za Slobodni Softver"
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "Konfiguracijski servis za memo conduit.\n"
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "Nomože da započne the GnomePilot Daemon"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "Nomože da priključi the GnomePilot Daemon"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr "Uzmite u obzir da PalmOS 3.3 ne može pravilno da podesi vreme."
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "Nemože da podesi vreme zbog PalmOS 3.3"

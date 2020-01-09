@@ -1,0 +1,256 @@
+# translation of gnome-pilot-conduits.HEAD.ne.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Pawan Chitrakar <pawan@mpp.org.np>, 2005.
+# Ganesh Ghimire <gghimire@gmail.com>, 2005.
+# Ishwar Sharma <eesha_kaf@yahoo.com>, 2005.
+# Ishwar Sharma <sharmabeeshwar@gmail.com>, 2005.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Mahesh subedi <submanesh@hotmail.com>, 2006.
+# Shyam Krishna Bal <balshyam24@yahoo.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pilot-conduits.HEAD.ne\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2007-11-22 19:31+0545\n"
+"Last-Translator: Shyam Krishna Bal <balshyam24@yahoo.com>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n !=1\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr "एउटा mbox फाइल वा MH डाइरेक्टरी चयन गर्नुहोस्।"
+
+#. send_action option menu
+#: email/email_conduit.c:787
+msgid "Send Action:"
+msgstr "कार्य पठाउनुहोस्:"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr "पीडीएबाट मेट्नुहोस्"
+
+#: email/email_conduit.c:796
+msgid "File on PDA"
+msgstr "पीडीएमा फाइल"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "बाट:"
+
+#. sendmail entry
+#: email/email_conduit.c:815
+msgid "Sendmail command:"
+msgstr "पत्र पठाउने आदेश:"
+
+#. receive_action option menu
+#: email/email_conduit.c:823
+msgid "Receive Action:"
+msgstr "कार्य प्राप्त गर्नुहोस्:"
+
+#: email/email_conduit.c:827
+msgid "Copy from Inbox"
+msgstr "प्राप्ति मञ्जूषाबाट प्रतिलिपि बनाउनुहोस्"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr "प्राप्ति मञ्जूषाबाट मेट्नुहोस्"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr "प्राप्ति मञ्जूषा मिरर गर्नुहोस्"
+
+#. mbox_file entry
+#: email/email_conduit.c:848
+msgid "Copy mail from:"
+msgstr "यसबाट पत्र प्रतिलिपि बनाउनुहोस्:"
+
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "अज्ञात मुद्रा प्रतीक"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+"कुनै डाइरेक्टरी निर्दिष्ट गरिएको छैन । कृपया एक्सपेन्स कन्ड्युट क्याप्लेट पहिला सञ्चालन गर्नुहोस् "
+"।"
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "दिन/महिना/वर्ष"
+
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "महिना/दिन/वर्ष"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "१९७०-०१-०१ देखि (in sec)"
+
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "स्थानीय ढाँचा"
+
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "साधारण"
+
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "जटिल"
+
+#: expense/expense_conduit.c:478
+msgid "Expense Directory:"
+msgstr "खर्च डाइरेक्टरी:"
+
+#: expense/expense_conduit.c:479
+msgid "Directory Mode:"
+msgstr "डाइरेक्टरी मोड:"
+
+#: expense/expense_conduit.c:480
+msgid "File Mode:"
+msgstr "फाइल मोड:"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+msgid "Date Format:"
+msgstr "मिति ढाँचा:"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+msgid "Output Format:"
+msgstr "निर्गत ढाँचा:"
+
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "मेमो डाइरेक्टरी:"
+
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "सुरुआत उपेक्षा गर्नुहोस्:"
+
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "समाप्ति उपेक्षा गर्नुहोस्:"
+
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "डाइरेक्टरी मोड:"
+
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "फाइलहरूको मोड:"
+
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "गोप्य फाइलहरूको मोड:"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr ""
+"कुनै डाइरेक्टरी निर्दिष्ट गरिएको छैन । कृपया मेमो फाइल कन्ड्युट क्याप्लेट पहिला चलाउनुहोस् ।"
+
+#: mal-conduit/src/mal-conduit.c:146
+msgid "Already synchronized today"
+msgstr "आज पहिले नै समक्रमित छ"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr "सिङ्क MAL दिनको एक पटक मात्र"
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "एस्किल हेइन ओल्सेन <deity@eskil.dk>"
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+msgid "Gnome Pilot MAL conduit"
+msgstr "जिनोम पाइलट MAL कन्ड्युट "
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "(C) १९९९ स्वतन्त्र सफ्टवेयर संस्था "
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+"MAL कन्ड्युट का लागि उपयोगिता कन्फिगर गर्नुहोस्\n"
+"MAL मोवाइल अनुप्रयोग लिङ्क प्रोटोकल हो, बिस्तृत जानकारीका लागि हेर्नुहोस् www."
+"mobilelink.org "
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-unknown.xpm"
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "सक्षम पारियो"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "कन्ड्युट राज्य"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"कुनै पाइलट कन्फिगर गरिएको छैन, कृपया पहिले \n"
+"'पाइलट लिङ्क गुण' क्यपलेट रोज्नुहोस् ।"
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "जिनोम-पाइलट डेइमोनमा जडान गरिएको छैन ।"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+"जिनोम-पाइलट डेइमोनबाट पाइलट सूची तान्न खोज्दा\n"
+"त्रुटि भयो "
+
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr "Gpilotd  मेमो कन्ड्युट"
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "(C) १९९९ स्वतन्त्र सफ्टवेयर संस्था "
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "मेमो कन्ड्युट का लागि उपयोगिता कन्फिगरेसन ।\n"
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "जिनोमपाइलट डेइमोन सुरुआत गर्न सकिँदैन"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "जिनोमपाइलट डेइमोन जडान गर्न सकिँदैन"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr "कृपया टिप्पणी यो छ की PalmOS३.३ले ठीकसँग समय सेट गर्न सक्दैन ।"
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "PalmOS३.३ को कारणले समय सेट गर्न अक्षम"

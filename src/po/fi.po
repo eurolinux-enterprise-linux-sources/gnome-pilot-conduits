@@ -1,0 +1,325 @@
+# Finnish messages for gnome-pilot conduits.
+#
+# Gnome Finnish Translation Team
+# http://gnome.fi/
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Jarmo Kielosto <jarmoki@kolumbus.fi>, 2000.
+# Ilkka Tuohela <hile@iki.fi>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pilot-conduits\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2006-10-01 07:02+0300\n"
+"Last-Translator: Ilkka Tuohela <hile@iki.fi>\n"
+"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr "Valitse mbox-tiedosto tai MH-kansio"
+
+# capplet/gpilotd-capplet-strings.c:56 capplet/gpilotd-capplet-strings.c:99
+# capplet/gpilotd-capplet-strings.c:116
+#. send_action option menu
+#: email/email_conduit.c:787
+msgid "Send Action:"
+msgstr "Lähetystoiminto:"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr "Poista PDA:sta"
+
+#: email/email_conduit.c:796
+msgid "File on PDA"
+msgstr "Tallenna PDA:han"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "Lähde:"
+
+# conduits/email/email-conduit-control-applet.c:515
+#. sendmail entry
+#: email/email_conduit.c:815
+msgid "Sendmail command:"
+msgstr "Sendmail-komento:"
+
+# capplet/gpilotd-capplet-strings.c:56 capplet/gpilotd-capplet-strings.c:99
+# capplet/gpilotd-capplet-strings.c:116
+#. receive_action option menu
+#: email/email_conduit.c:823
+msgid "Receive Action:"
+msgstr "Vastaanottotoiminto:"
+
+# capplet/gpilotd-control-applet.c:518 capplet/gpilotd-control-applet.c:1097
+#: email/email_conduit.c:827
+msgid "Copy from Inbox"
+msgstr "Kopioi Saapuneet-kansiosta"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr "Poista Saapuneet-kansiosta"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr "Peilaa Saapuneet-kansio"
+
+# capplet/gpilotd-control-applet.c:518 capplet/gpilotd-control-applet.c:1097
+#. mbox_file entry
+#: email/email_conduit.c:848
+msgid "Copy mail from:"
+msgstr "Kopioi sähköpostit lähteestä:"
+
+# conduits/expense/expense_conduit.c:159
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "Tuntematon valuuttasymboli"
+
+# conduits/expense/expense_conduit.c:196
+# conduits/expense/expense_conduit.c:197
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+"hakemistoa ei ole annettu. Suorita Kulunseurannan kanavan asetukset ensin."
+
+# conduits/expense/expense-conduit-control-applet.c:58
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "päivä/kuukausi/vuosi"
+
+# conduits/expense/expense-conduit-control-applet.c:59
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "kuukausi/päivä/vuosi"
+
+# conduits/expense/expense-conduit-control-applet.c:60
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "1970-01-01 lähtien (sekuntia)"
+
+# conduits/expense/expense-conduit-control-applet.c:61
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "Paikallinen muoto"
+
+# conduits/expense/expense-conduit-control-applet.c:70
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "Yksinkertainen"
+
+# conduits/expense/expense-conduit-control-applet.c:71
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "Monimutkainen"
+
+# conduits/expense/expense-conduit-control-applet.c:367
+#: expense/expense_conduit.c:478
+msgid "Expense Directory:"
+msgstr "Kulunseurannan kansio:"
+
+# conduits/expense/expense-conduit-control-applet.c:368
+#: expense/expense_conduit.c:479
+msgid "Directory Mode:"
+msgstr "Kansion oikeudet:"
+
+# conduits/expense/expense-conduit-control-applet.c:369
+#: expense/expense_conduit.c:480
+msgid "File Mode:"
+msgstr "Tiedoston oikeudet:"
+
+# conduits/expense/expense-conduit-control-applet.c:392
+#. set the date format
+#: expense/expense_conduit.c:502
+msgid "Date Format:"
+msgstr "Päiväyksen muoto:"
+
+# conduits/expense/expense-conduit-control-applet.c:415
+#. set the writeout format
+#: expense/expense_conduit.c:522
+msgid "Output Format:"
+msgstr "Tulosteen muoto:"
+
+# conduits/memo_file/memo_file_capplet.c:414
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "Muistiohakemisto:"
+
+# conduits/memo_file/memo_file_capplet.c:415
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "Jätä huomioimatta alkaen:"
+
+# conduits/memo_file/memo_file_capplet.c:416
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "Jätä huomioimatta saakka:"
+
+# conduits/memo_file/memo_file_capplet.c:417
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "Hakemiston tila:"
+
+# conduits/memo_file/memo_file_capplet.c:418
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "Tiedostojen oikeudet:"
+
+# conduits/memo_file/memo_file_capplet.c:419
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "Salaisen tiedoston oikeudet:"
+
+# conduits/memo_file/memo_file_conduit.c:1091
+# conduits/memo_file/memo_file_conduit.c:1093
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr "Kansiota ei ole määritelty. Suorita muistio-kanavan sovelma ensin."
+
+# applet/pilot.c:157 applet/pilot.c:369 applet/pilot.c:902
+#: mal-conduit/src/mal-conduit.c:146
+msgid "Already synchronized today"
+msgstr "Tänään on jo synkronoitu"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr "Synkronoi MAL vain kerran päivässä"
+
+# conduits/backup/backup-conduit-control-applet.c:289
+# conduits/email/email-conduit-control-applet.c:232
+# conduits/file/file-conduit-control-applet.c:131
+# conduits/memo_file/memo_file_capplet.c:301
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "Eskil Heyn Olsen <deity@eskil.dk>"
+
+# capplet/gpilotd-capplet-strings.c:111
+#: mal-conduit/src/mal-conduit-capplet.c:120
+msgid "Gnome Pilot MAL conduit"
+msgstr "GnomePilotin MAL-kanava"
+
+# conduits/expense/expense-conduit-control-applet.c:282
+#: mal-conduit/src/mal-conduit-capplet.c:121
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "(C) 1999 the Free Software Foundation"
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+"MAL-kanavan asetusohjelma.\n"
+"MAL on \"Mobile Application Link\"-protokolla, katso lisätietoja osoitteesta "
+"www.mobilelink.org."
+
+# conduits/backup/backup-conduit-control-applet.c:299
+# conduits/email/email-conduit-control-applet.c:240
+# conduits/expense/expense-conduit-control-applet.c:287
+# conduits/file/file-conduit-control-applet.c:139
+# conduits/memo_file/memo_file_capplet.c:310
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-unknown.xpm"
+
+# conduits/backup/backup-conduit-control-applet.c:340
+# conduits/email/email-conduit-control-applet.c:267
+# conduits/expense/expense-conduit-control-applet.c:315
+# conduits/file/file-conduit-control-applet.c:166
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "käytössä"
+
+# conduits/backup/backup-conduit-control-applet.c:503
+# conduits/email/email-conduit-control-applet.c:509
+# conduits/expense/expense-conduit-control-applet.c:537
+# conduits/file/file-conduit-control-applet.c:218
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "Kanavan tila"
+
+# conduits/backup/backup-conduit-control-applet.c:560
+# conduits/backup/backup-conduit-control-applet.c:573
+# conduits/email/email-conduit-control-applet.c:566
+# conduits/email/email-conduit-control-applet.c:579
+# conduits/expense/expense-conduit-control-applet.c:596
+# conduits/expense/expense-conduit-control-applet.c:609
+# conduits/file/file-conduit-control-applet.c:268
+# conduits/file/file-conduit-control-applet.c:281
+# conduits/memo_file/memo_file_capplet.c:601
+# conduits/memo_file/memo_file_capplet.c:614
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"Yhtään pilottia ei ole asennettu, valitse\n"
+"ensin \"PalmOS-Laitteet\" työpöydän asetuksista."
+
+# conduits/backup/backup-conduit-control-applet.c:579
+# conduits/email/email-conduit-control-applet.c:585
+# conduits/expense/expense-conduit-control-applet.c:615
+# conduits/file/file-conduit-control-applet.c:287
+# conduits/memo_file/memo_file_capplet.c:620
+#: mal-conduit/src/mal-conduit-capplet.c:271
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "Ei yhdistetty gnome-pilotd palvelinprosessiin"
+
+# conduits/backup/backup-conduit-control-applet.c:584
+# conduits/email/email-conduit-control-applet.c:590
+# conduits/expense/expense-conduit-control-applet.c:620
+# conduits/file/file-conduit-control-applet.c:292
+# conduits/memo_file/memo_file_capplet.c:625
+#: mal-conduit/src/mal-conduit-capplet.c:276
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+"Tapahtui virhe haettaessa listaa piloteista\n"
+"gnome-pilotin palvelinprosessilta"
+
+# conduits/memo_file/memo_file_capplet.c:304
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr "Gpilotd Muistiokanava "
+
+# conduits/backup/backup-conduit-control-applet.c:292
+# conduits/email/email-conduit-control-applet.c:235
+# conduits/file/file-conduit-control-applet.c:134
+# conduits/memo_file/memo_file_capplet.c:305
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "(C) 1998 the Free Software Foundation"
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "Muistio-kanavan asetusohjelma\n"
+
+# capplet/gpilotd-control-applet.c:1435 capplet/gpilotd-control-applet.c:1436
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "GnomePilotin palvelinprosessin alustus ei onnistu"
+
+# capplet/gpilotd-control-applet.c:1435 capplet/gpilotd-control-applet.c:1436
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "Yhdistäminen GnomePilotin palvelinprosessiin ei onnistu"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr "Ota huomioon ettei PalmOS 3.3 pysty kunnolla asettamaan aikaa."
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "Ajan asetus ei onnistu PalmOS 3.3 versiosta johtuen"

@@ -1,0 +1,273 @@
+# Arabic translations for THIS package.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as THIS package.
+# Automatically generated, 2007.
+# Djihed Afifi <djihed@gmail.com>, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: Arabic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2007-04-14 18:49+0100\n"
+"Last-Translator: Djihed Afifi <djihed@gmail.com>\n"
+"Language-Team: Arabeyes <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: email/email_conduit.c:757
+#, fuzzy
+msgid "Select an mbox file or an MH directory"
+msgstr "اختر دليل"
+
+#. send_action option menu
+#: email/email_conduit.c:787
+#, fuzzy
+msgid "Send Action:"
+msgstr "أرسِل إلى:"
+
+#: email/email_conduit.c:791
+#, fuzzy
+msgid "Delete from PDA"
+msgstr "ا_حذف من السواقة"
+
+#: email/email_conduit.c:796
+#, fuzzy
+msgid "File on PDA"
+msgstr "الملف على أنّه"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "من:"
+
+#. sendmail entry
+#: email/email_conduit.c:815
+#, fuzzy
+msgid "Sendmail command:"
+msgstr "أمر التعليق"
+
+#. receive_action option menu
+#: email/email_conduit.c:823
+#, fuzzy
+msgid "Receive Action:"
+msgstr "توجيه"
+
+#: email/email_conduit.c:827
+#, fuzzy
+msgid "Copy from Inbox"
+msgstr "جاري النسخ من {0}"
+
+#: email/email_conduit.c:832
+#, fuzzy
+msgid "Delete from Inbox"
+msgstr "ا_حذف من المهملات"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr ""
+
+#. mbox_file entry
+#: email/email_conduit.c:848
+#, fuzzy
+msgid "Copy mail from:"
+msgstr "ا_نسخ عنوان البريد الالكتروني"
+
+#: expense/expense_conduit.c:218
+#, fuzzy
+msgid "Unknown Currency Symbol"
+msgstr "رموز العملات"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr ""
+
+#: expense/expense_conduit.c:454
+#, fuzzy
+msgid "Month/Day/Year"
+msgstr "تقويم شهري"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr ""
+
+#: expense/expense_conduit.c:456
+#, fuzzy
+msgid "Local format"
+msgstr "المضيف المحلى "
+
+#: expense/expense_conduit.c:465
+#, fuzzy
+msgid "Simple"
+msgstr "عينة"
+
+#: expense/expense_conduit.c:466
+#, fuzzy
+msgid "Complex"
+msgstr "مُنجز"
+
+#: expense/expense_conduit.c:478
+#, fuzzy
+msgid "Expense Directory:"
+msgstr "دليل Exif"
+
+#: expense/expense_conduit.c:479
+#, fuzzy
+msgid "Directory Mode:"
+msgstr "مركب دليل"
+
+#: expense/expense_conduit.c:480
+#, fuzzy
+msgid "File Mode:"
+msgstr "الوضع الكامل"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+#, fuzzy
+msgid "Date Format:"
+msgstr "نسق البيانات"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+#, fuzzy
+msgid "Output Format:"
+msgstr "صيغة الخرْج:"
+
+#: memo_file/memo_file_conduit.c:1253
+#, fuzzy
+msgid "Memos directory:"
+msgstr "دليل المستخدمين:"
+
+#: memo_file/memo_file_conduit.c:1254
+#, fuzzy
+msgid "Ignore start:"
+msgstr "البداية الجديدة: %1"
+
+#: memo_file/memo_file_conduit.c:1255
+#, fuzzy
+msgid "Ignore end:"
+msgstr "أهمل المخفي"
+
+#: memo_file/memo_file_conduit.c:1256
+#, fuzzy
+msgid "Directory mode:"
+msgstr "لوح الدليل"
+
+#: memo_file/memo_file_conduit.c:1257
+#, fuzzy
+msgid "Files mode:"
+msgstr "اسم الملف:"
+
+#: memo_file/memo_file_conduit.c:1258
+#, fuzzy
+msgid "Secret files mode:"
+msgstr "إعداد نمط الطبقة"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr ""
+
+#: mal-conduit/src/mal-conduit.c:146
+#, fuzzy
+msgid "Already synchronized today"
+msgstr "تزامن مع iPod "
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+msgid "Gnome Pilot MAL conduit"
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+msgid "(C) 1999 the Free Software Foundation"
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+#, fuzzy
+msgid "Enabled"
+msgstr "/_مفعّل"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+#, fuzzy
+msgid "Conduit state"
+msgstr "ثابت"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+#, fuzzy
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "غير متصل بمخرج الرسائل"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+#, fuzzy
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr "حدث خطأ أثناء حذف الملفات من المحفوظة."
+
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr ""
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr ""
+
+#: memo/memo-conduit-control-applet.c:140
+#, fuzzy
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "خيارات الإعدادات لمهمة الطبع"
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+#, fuzzy
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "لا يمكن اعداد الجهاز"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+#, fuzzy
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "لم يمكن الاتصال بخادم HAL"
+
+#: time/time-conduit.c:123
+#, fuzzy
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr "رجاء تثبّت من وجود قرص في الجهاز."
+
+#: time/time-conduit.c:197
+#, fuzzy
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "فشل ضبط قيمة كتابة النصوص: %s"

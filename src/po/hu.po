@@ -1,0 +1,252 @@
+# Hungarian translation of gnome-pilot-conduits.
+# Copyright (C) 2000, 2004, 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-pilot-conduits package.
+#
+# Szabolcs Ban <shooby@gnome.hu>, 2000.
+# Zoltan Kota <z.kota@gmx.net>, 2004.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pilot-conduits\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2006-10-21 03:49+0200\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
+"Language-Team: Hungarian <gnome@gnome.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr "Válasszon egy mbox fájlt vagy egy MH könyvtárat"
+
+#. send_action option menu
+#: email/email_conduit.c:787
+msgid "Send Action:"
+msgstr "Küldési művelet:"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr "Törlés a PDA-ról"
+
+#: email/email_conduit.c:796
+msgid "File on PDA"
+msgstr "Fájl a PDA-n marad"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "Feladó:"
+
+#. sendmail entry
+#: email/email_conduit.c:815
+msgid "Sendmail command:"
+msgstr "Levélküldési parancs:"
+
+#. receive_action option menu
+#: email/email_conduit.c:823
+msgid "Receive Action:"
+msgstr "Fogadási művelet:"
+
+#: email/email_conduit.c:827
+msgid "Copy from Inbox"
+msgstr "Másolás az Inbox-ból"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr "Törlés az Inbox-ból"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr "Inbox tükrözése"
+
+#. mbox_file entry
+#: email/email_conduit.c:848
+msgid "Copy mail from:"
+msgstr "Levél másolása a következő helyről:"
+
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "Ismeretlen pénznem szimbólum"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+"Nincs könyvtár megadva. Kérem futtassa először az expense csatorna cappletet."
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "Nap/Hónap/Év"
+
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "Hónap/Nap/Év"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "1970-01-01 óta (másodpercben)"
+
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "Helyi formátum"
+
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "Egyszerű"
+
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "Komplex"
+
+#: expense/expense_conduit.c:478
+msgid "Expense Directory:"
+msgstr "Expense könyvtár:"
+
+#: expense/expense_conduit.c:479
+msgid "Directory Mode:"
+msgstr "Könyvtár mód:"
+
+#: expense/expense_conduit.c:480
+msgid "File Mode:"
+msgstr "Fájl mód:"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+msgid "Date Format:"
+msgstr "Dátumformátum:"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+msgid "Output Format:"
+msgstr "Kimeneti formátum:"
+
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "Memo könyvtár:"
+
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "Kihagyás kezdete:"
+
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "Kihagyás vége:"
+
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "Könyvtár mód:"
+
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "Fájl mód:"
+
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "Titkos fájlok módja"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr ""
+"Nincs könyvtár megadva. Kérem futtassa először memo_file csatorna cappletet."
+
+#: mal-conduit/src/mal-conduit.c:146
+msgid "Already synchronized today"
+msgstr "Ma már volt szinkronizálva"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr "MAL szinkronizálása csak egyszer egy nap"
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "Eskil Heyn Olsen <deity@eskil.dk>"
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+msgid "Gnome Pilot MAL conduit"
+msgstr "Gnome Pilot MAL csatorna"
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "© 1999 the Free Software Foundation"
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+"Beállítási segédeszköz a MAL csatornához.\n"
+"A MAL az a Mobile Application Link protokoll. Lásd: www.mobilelink.org."
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-unknown.xpm"
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "Csatorna állapota"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"Nincs pilot konfigurálva, kérem válassza\n"
+"először a 'Pilot Link Properties' cappletet."
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "Nincs csatlakozva a gnome-pilot démonhoz"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+"Hiba történt a pilot lista lekérdezése során\n"
+"a gnome-pilot démontól"
+
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr "Gpilotd memo csatorna"
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "© 1998 the Free Software Foundation"
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "Beállítási segédeszköz a memo csatornához.\n"
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "Nem lehet inicializálni a GnomePilot démont"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "Nem lehet kapcsolódni a GnomePilot démonhoz"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr ""
+"Kérem vegye figyelembe, hogy a PalmOS 3.3 nem tudja megfelelően beállítani "
+"az időt."
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "A PalmOS 3.3 miatt nem lehet az időt beállítani"

@@ -1,0 +1,177 @@
+2005-11-03  JP Rosevear  <jpr@novell.com>
+
+	* email_conduit.c: kill warning
+
+	* parsedate.y: ditto
+	
+2005-11-03  JP Rosevear  <jpr@novell.com>
+
+	* email_conduit.c: port to pl 0.12	
+
+2005-08-10  JP Rosevear  <jpr@novell.com>
+
+	* sendmail.conduit.in:  use LIBDIR and DATADIR for
+	substitution
+
+	* Makefile.am: clean .conduit files properly; create
+	.conduit file with new rule
+
+2005-02-03  JP Rosevear  <jpr@novell.com>
+
+	* Makefile.am: remove unnecessary install rule
+
+2003-01-26  Chris Toshok  <toshok@ximian.com>
+
+	* email_conduit.c (handleFileSelector): fix compiler warning.
+	(conduit_get_gpilot_conduit): fix the signal connection foo.
+
+	* Makefile.am (INCLUDES): simplify, use
+	GNOME_PILOT_CONDUITS_CFLAGS.
+	(libemail_conduit_la_LIBADD): simplify, use
+	GNOME_PILOT_CONDUITS_LIBS.
+
+2002-05-15  Daniel Thompson <d.thompson@gmx.net>
+
+	* email_conduit.c:
+	Removing stringize operator from LOG (warning suppression).
+	Added missing config management code (copy, dup, save).
+	Introduced new copy to Palm Inbox modes (mirror removes old
+	mails from the Palm automatically, copy does not make duplicate
+	copies of mails in the Palm Inbox.
+	Wrote GUI to manage all current config options.
+	* email_conduit.h:
+	Minor changes to faciliate above.
+
+2002-04-25  JP Rosevear  <jpr@ximian.com>
+
+	* email_conduit.c: include <fcntl.h>
+
+2001-06-18  Eskil Heyn Olsen  <eskil@eazel.com>
+
+	* email_conduit.c: (conduit_get_gpilot_conduit):
+	another api tweak
+
+2001-06-13  Eskil Heyn Olsen  <eskil@eazel.com>
+
+	* email_conduit.c: (conduit_get_gpilot_conduit):
+	Updated for recent gnome-pilot changes.h
+
+2000-07-29  Fatih Demir  <kabalak@gmx.net> 
+
+	* email-conduit-control-applet.desktop: Added the Turkish desktop entries.
+
+2000-06-30  Seth Alves  <alves@hungry.com>
+
+	* Makefile.am (email_conduit_control_applet_LDADD): added
+	BONOBO_VFS_GNOME_LIBS
+
+2000-05-02  Jacob Berkman  <jacob@helixcode.com>
+
+	* Makefile.am (panel_DATA): copy .desktop to the panel's Settings dir
+
+2000-03-12  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* Makefile.am, email-conduit-control-applet.c: Update to use new libgpilotdcm.
+
+2000-03-08  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* Makefile.am (INCLUDES): automake juju to make distcheck pass
+
+2000-02-27  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* email-conduit-control-applet.c: Updated for changes in libgpilotd.
+
+2000-02-26  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* Makefile.am, email-conduit-control-applet.c, email_conduit.[ch]: 
+	Switch to using new libgpilotd. Call bindtextdomain for translation. 
+	Move the load/save/copy config functions out of the header file and into
+	the capplet. Conduit only needs a specialized load_config function that
+	generates an error if config is not found. 
+
+
+2000-01-31  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* email_conduit.h: Replace // comment with /* */
+
+2000-01-31  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* Makefile.am (INCLUDES): link with libgpilotdOLD and
+ 	libgpilotdconduitOLD
+
+2000-01-08  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* email-conduit-control-applet.c: Added pilotID argument
+	to gpilotd_conduit_mgmt_new.
+
+1999-12-29  Martin Norbäck  <d95mback@dtek.chalmers.se>
+
+	* email-conduit-control-applet.desktop: Added Swedish Translation
+
+1999-12-03  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* email_conduit.c: Meddling with includes to make distcheck work
+
+1999-11-02  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* email_conduit.c (conduit_get_gpilot_conduit): removed the hook
+	to copy_from_pilot, since it calls same hook as synchronize, which
+	writes records to the pilot.
+
+1999-10-31  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* email-conduit-control-applet.c, email_conduit.c: Fix capplet
+	to enable conduit with "syncrhonize" action instead of custom, 
+	since this is a standard conduit. Also fix install of copy_from_pilot 
+	routine on copy_to_pilot signal.
+
+1999-11-01  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* Makefile.am: uses PISOCK_LIBDIR
+
+1999-10-27 Patrick Decowski <decowski@mit.edu>
+	
+        * email-conduit-control-applet.c: changed the logic of
+	try/ok/revert as per vadim's suggestion. the options can now be
+	selected with a GtkOptionMenu instead of the ComboMenu, fixed the
+	thing with deleting text in a GtkEntry and the capplet not
+	changing state if that is the only thing that is done: you need to
+	call a special 'delete-text' signal to change the state....  
+	also fixed a few bugs where the gstrings weren't properly duplicated
+	into the ConduitCfg struct and then deleted.
+	
+1999-10-26 Patrick Decowski <decowski@mit.edu>
+	
+	* email-conduit-control-applet.c: the user can now edit the 'From'
+	address that sendmail will slap on the emails coming from the
+	pilot. the MH Directory can be edited, this is the dir from
+	which the mail is uploaded to the pilot. also the sendmail
+	location and the action to undertake with the mails being synced
+	to the pilot and from the pilot (file or delete) can be changed in
+	this capplet.
+
+	while doing this i changed the try/ok etc logic to what the backup
+	conduit is doing.
+
+	* email_conduit.h: the conduit now saves the data that was edited
+	in the capplet to '/gnome-pilot.d/email-conduit/' 
+	
+1999-10-23 Vadim Strizhvesky <vadim@optonline.net>
+
+	* email-conduit-control-applet.c: fixed some messages to pertain to 
+	this conduit. Fixed coredump on the second Revert. Passing curState 
+	as user data doesn't actually work because of destroy call, address of it might. 
+	Try/Revert/Cancel logic now actually works more or less, but may need
+	further adjustments. Also fix calling gtk_widget_set_sensitive on NULL widget.
+	Also enabled state is not treated as changed immediately.
+	
+1999-10-22  Eskil Olsen <deity@eskil.dk>
+
+	* email-conduit-control-applet.c: patched pilot_id reading and
+ 	use. Also did some fixed that capplet signal are passed curState
+	as user data.
+
+1999-10-21  Eskil Olsen <deity@eskil.dk>
+
+	* desktop: Renamed the name in gnomecc to
+	"SendMail" conduit.

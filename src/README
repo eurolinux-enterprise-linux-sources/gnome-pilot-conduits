@@ -1,0 +1,25 @@
+MAL conduit:
+------------
+
+To use proxy, edit your ~/.gnome/gnome-pilot.d/mal-conduit.
+Find the section for your pilot (if you have more than one),
+and add the following :
+
+proxy_address=
+proxy_username=
+proxy_password=
+proxy_port=0
+socks_proxy_address=
+socks_proxy_port=0
+
+so you'll end with something like this :
+
+[Pilot_355]
+once_a_day=true
+last_sync=1001974283
+proxy_address=proxy.eskil.org
+proxy_username=eskil
+proxy_password=youthink
+proxy_port=8080
+socks_proxy_address=
+socks_proxy_port=0

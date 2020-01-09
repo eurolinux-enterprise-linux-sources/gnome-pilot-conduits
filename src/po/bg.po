@@ -1,0 +1,260 @@
+# Bulgarian translation of gnome-pilot-conduits po-file
+# Copyright (C) 2005 THE gnome-pilot-conduits'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-pilot-conduits package.
+# Alexander Shopov <ash@contact.bg>, 2005.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pilot-conduits\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2005-12-15 23:45+0200\n"
+"Last-Translator: Alexander Shopov <ash@contact.bg>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr "Изберете файл във формат mbox или папка за MH"
+
+#. send_action option menu
+#: email/email_conduit.c:787
+#, fuzzy
+msgid "Send Action:"
+msgstr "Изпращане"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr "Изтриване от помощника"
+
+#: email/email_conduit.c:796
+msgid "File on PDA"
+msgstr "Файл върху помощника"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "От:"
+
+#. sendmail entry
+#: email/email_conduit.c:815
+#, fuzzy
+msgid "Sendmail command:"
+msgstr "Команда за пращане на е-поща"
+
+#. receive_action option menu
+#: email/email_conduit.c:823
+#, fuzzy
+msgid "Receive Action:"
+msgstr "Получаване"
+
+#: email/email_conduit.c:827
+msgid "Copy from Inbox"
+msgstr "Копиране от пощенската кутия"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr "Изтриване от пощенската кутия"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr "Копиране на цялата пощенска кутия"
+
+#. mbox_file entry
+#: email/email_conduit.c:848
+#, fuzzy
+msgid "Copy mail from:"
+msgstr "Копиране на е-поща от"
+
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "Непознат символ на валута"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+"Не е указана папка. Първо трябва да стартирате контролния панел за "
+"прехвърлянето на разходите."
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "ден/месец/година"
+
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "месец/ден/година"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "От 1970-01-01 (в секунди)"
+
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "Локален формат"
+
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "Прост"
+
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "Сложен"
+
+#: expense/expense_conduit.c:478
+#, fuzzy
+msgid "Expense Directory:"
+msgstr "Папка за разходите"
+
+#: expense/expense_conduit.c:479
+#, fuzzy
+msgid "Directory Mode:"
+msgstr "Режим на папките"
+
+#: expense/expense_conduit.c:480
+#, fuzzy
+msgid "File Mode:"
+msgstr "Режим на файловете"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+#, fuzzy
+msgid "Date Format:"
+msgstr "Формат на датата"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+#, fuzzy
+msgid "Output Format:"
+msgstr "Изходен формат"
+
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "Папка за бележките:"
+
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "Пренебрегване на началото:"
+
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "Пренебрегване на края:"
+
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "Режим на папките:"
+
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "Режим на файловете:"
+
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "Режим на личните файлове"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr ""
+"Не е указана папка. Първо стартирайте контролния панел за прехвърлянето на "
+"бележки."
+
+#: mal-conduit/src/mal-conduit.c:146
+msgid "Already synchronized today"
+msgstr "Днес вече е синхронизиран"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr "Да се синхронизира само по веднъж на ден по MAL"
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "Авторски права Eskil Heyn Olsen <deity@eskil.dk>"
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+msgid "Gnome Pilot MAL conduit"
+msgstr "Прехвърляне по MAL от Palm към GNOME"
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "Авторски права (C) 1999 the Free Software Foundation"
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+"Настройки на прехвърлянето по MAL. Това е протокол за връзка с\n"
+"мобилни приложения. За повече информация http://www.mobilelink.org."
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-unknown.xpm"
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "Включен"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "Състояние на прехвърлянето"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"Няма настроени помощници на Palm. Първо стартирайте\n"
+"контролния панел „Настройки за връзка към Palm“."
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "Няма връзка към фоновата програма gnome-pilot"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+#, fuzzy
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+"Грешка при опита за получаване на списъка с\n"
+"помощници от фоновата програма gnome-pilot"
+
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr "Прехвърляне на бележки с Gpilotd"
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "Авторски права (C) 1998 the Free Software Foundation"
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "Настройки на прехвърлянето на бележки.\n"
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "Фоновата програма gnome-pilot не може да се стартира"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "Липсва връзка към фоновата програма gnome-pilot"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr "Забележете, че в PalmOS 3.3 датата не може да се зададе коректно."
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "Датата не може да се зададе поради PalmOS 3.3"

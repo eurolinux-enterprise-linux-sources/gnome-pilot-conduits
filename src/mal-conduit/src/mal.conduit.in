@@ -1,0 +1,9 @@
+<gnome-pilot-conduit version="1.0">
+	<conduit id="malconduit1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libmal_conduit.so"/>
+<name value="MAL"/>
+	<conduit-attribute name="description" value="Mobile Application Link conduit"/>
+	<conduit-attribute name="url" value="http://www.avantgo.com"/>
+	<conduit-attribute name="default-synctype" value="custom"/>
+	<conduit-attribute name="icon" value="@DATADIR@/pixmaps/avantgo.png"/>
+	<conduit-attribute name="settings" value="TRUE"/>
+</gnome-pilot-conduit>

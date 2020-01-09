@@ -1,0 +1,256 @@
+# Brazilian Portuguese translation of gnome-pilot-conduits.HEAD
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# A terminologia usada na tradução procura manter consistência com a
+# documentação oficial em português do Palm V. Os dois termos mais
+# importantes são: cradle == berço e conduit == canal.
+#
+# Gustavo Maciel Dias Vieira <gdvieira@zaz.com.br>, 2001.
+# Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2006.
+# Henrique P Machado <zehrique@gmail.com>, 2008.
+# Pedro Vaz de Mello de Medeiros <pedrovmm@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pilot-conduits.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2008-05-19 02:49-0300\n"
+"Last-Translator: Henrique P Machado <zehrique@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr "Seleciona um arquivo mbox ou um diretório MH"
+
+#. send_action option menu
+#: email/email_conduit.c:787
+msgid "Send Action:"
+msgstr "Ação de Enviar:"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr "Excluir do PDA"
+
+#: email/email_conduit.c:796
+msgid "File on PDA"
+msgstr "Arquivo no PDA"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "De:"
+
+#. sendmail entry
+#: email/email_conduit.c:815
+msgid "Sendmail command:"
+msgstr "Comando do Sendmail:"
+
+#. receive_action option menu
+#: email/email_conduit.c:823
+msgid "Receive Action:"
+msgstr "Ação de Receber:"
+
+#: email/email_conduit.c:827
+msgid "Copy from Inbox"
+msgstr "Copiar de Caixa de Entrada"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr "Excluir de Caixa de Entrada"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr "Espelhar Caixa de Entrada"
+
+#. mbox_file entry
+#: email/email_conduit.c:848
+msgid "Copy mail from:"
+msgstr "Copiar mensagens de:"
+
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "Símbolo de Moeda Desconhecido"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+"Nenhum diretório especificado. Por favor configure o canal de despesas."
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "Dia/Mês/Ano"
+
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "Mês/Dia/Ano"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "Desde 01-01-1970 (em segundos)"
+
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "Formato local"
+
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "Simples"
+
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "Complexo"
+
+#: expense/expense_conduit.c:478
+msgid "Expense Directory:"
+msgstr "Diretório de despesas:"
+
+#: expense/expense_conduit.c:479
+msgid "Directory Mode:"
+msgstr "Modo de diretório:"
+
+#: expense/expense_conduit.c:480
+msgid "File Mode:"
+msgstr "Modo de arquivo:"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+msgid "Date Format:"
+msgstr "Formato da data:"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+msgid "Output Format:"
+msgstr "Formato de saída:"
+
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "Diretório das notas:"
+
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "Ignorar início:"
+
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "Ignorar fim:"
+
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "Modo do diretório:"
+
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "Modo dos arquivos:"
+
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "Modo dos arquivos secretos:"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr ""
+"Nenhum diretório especificado. Por favor configure o canal de notas p/ "
+"arquivos."
+
+#: mal-conduit/src/mal-conduit.c:146
+msgid "Already synchronized today"
+msgstr "Já sincronizado hoje"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr "Sincronize MAL somente uma vez por dia"
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "Eskil Heyn Olsen <deity@eskil.dk>"
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+msgid "Gnome Pilot MAL conduit"
+msgstr "Canal MAL para o Gnome Pilot"
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "(C) 1999 Free Software Foundation"
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+"Ferramenta de configuração do canal MAL.\n"
+"MAL é o protocolo \"Mobile Application Link\", para mais informações, veja "
+"www.mobilelink.org"
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-unknown.xpm"
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "Estado do canal"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"Nenhum pilot configurado, por favor escolha o\n"
+"capplet \"Propriedades do Link Pilot\" primeiro."
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "Não conectado ao daemon gnome-pilot"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+"Ocorreu um erro ao tentar ler a lista\n"
+"de dispositivos do daemon gnome-pilot"
+
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr "Canal memo do gpilotd"
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "(C) 1998 the Free Software Foundation"
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "Utilitário de configuração para o canal memo.\n"
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "Não foi possível inicializar o daemon do GnomePilot"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "Não foi possível conectar ao daemon do GnomePilot"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr "Observe que o PalmOS 3.3 não pode ajustar apropriadamente a hora."
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "Não foi possível ajustar a hora devido ao PalmOS 3.3"

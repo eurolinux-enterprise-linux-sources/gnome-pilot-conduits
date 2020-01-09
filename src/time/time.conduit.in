@@ -1,0 +1,8 @@
+<gnome-pilot-conduit version="1.0">
+     <conduit id="gptime1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libtime_conduit.so"/>
+     <name value="Time"/>
+     <conduit-attribute name="description" value="Synchronizes the devices clock to the desktop"/>
+     <conduit-attribute name="default-synctype" value="custom"/>
+     <conduit-attribute name="settings" value="TRUE"/>
+     <conduit-attribute name="icon" value="@DATADIR@/pixmaps/gnome-clock.png"/>
+</gnome-pilot-conduit>

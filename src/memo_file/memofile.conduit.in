@@ -1,0 +1,9 @@
+<gnome-pilot-conduit version="1.0">
+     <conduit id="gpmemo1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libmemo_file_conduit.so"/>
+     <name value="MemoFile"/>
+     <conduit-attribute name="description" value="Synchronizes your memos to local file"/>
+     <conduit-attribute name="default-synctype" value="synchronize"/>
+     <conduit-attribute name="valid-synctypes" value="synchronize copy_from_pilot copy_to_pilot merge_from_pilot merge_to_pilot"/>
+     <conduit-attribute name="settings" value="TRUE"/>
+     <conduit-attribute name="icon" value="@DATADIR@/pixmaps/gnome-note.png"/>
+</gnome-pilot-conduit>

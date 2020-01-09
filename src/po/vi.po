@@ -1,0 +1,252 @@
+# Vietnamese translation for Gnome Pilot Conduits.
+# Copyright © 2006 Gnome i18n Project for Vietnamese.
+# T.M.Thanh <tmthanh@yahoo.com>, 2003.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gnome-pilot-conduits Gnome HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2006-08-24 18:14+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.6fc1\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr "Hãy chọn tập tin « .mbox » hay thư mục « MH »"
+
+#. send_action option menu
+#: email/email_conduit.c:787
+msgid "Send Action:"
+msgstr "Hành động gửi:"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr "Xóa bỏ ra PDA"
+
+#: email/email_conduit.c:796
+msgid "File on PDA"
+msgstr "Tập tin trên PDA"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "Từ:"
+
+#. sendmail entry
+#: email/email_conduit.c:815
+msgid "Sendmail command:"
+msgstr "Lệnh Sendmail:"
+
+#. receive_action option menu
+#: email/email_conduit.c:823
+msgid "Receive Action:"
+msgstr "Hành động nhận:"
+
+#: email/email_conduit.c:827
+msgid "Copy from Inbox"
+msgstr "Chép từ Thư Đến"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr "Xóa bỏ khỏi Thư Đến"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr "Phản ánh Thư Đến"
+
+#. mbox_file entry
+#: email/email_conduit.c:848
+msgid "Copy mail from:"
+msgstr "Chép thư từ :"
+
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "Ký hiệu tiền tệ không rõ"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+"Chưa chỉ định thư mục. Hãy chạy tiểu dụng thoại « expense conduit » (ống dẫn "
+"phí tổn) trước tiên."
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "Ngày/Tháng/Năm"
+
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "Tháng/Ngày/Năm"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "Từ 1970-01-01 (theo giây)"
+
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "Định dạng cục bộ"
+
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "Đơn giản"
+
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "Phức tạp"
+
+#: expense/expense_conduit.c:478
+msgid "Expense Directory:"
+msgstr "Thư mục phí tổn:"
+
+#: expense/expense_conduit.c:479
+msgid "Directory Mode:"
+msgstr "Chế độ thư mục:"
+
+#: expense/expense_conduit.c:480
+msgid "File Mode:"
+msgstr "Chế độ tập tin:"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+msgid "Date Format:"
+msgstr "Định dạng ngày:"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+msgid "Output Format:"
+msgstr "Định dạng xuất:"
+
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "Thư mục ghi nhớ :"
+
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "Bỏ qua khởi đầu :"
+
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "Bỏ qua kết thúc:"
+
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "Chế độ thư mục:"
+
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "Chế độ tập tin:"
+
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "Chế độ tập tin bí mật:"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr ""
+"Chưa chỉ định thư mục. Hãy chạy tiểu dụng thoại « memo_file conduit » (ống "
+"dẫn tập tin ghi chú) trước tiên"
+
+#: mal-conduit/src/mal-conduit.c:146
+msgid "Already synchronized today"
+msgstr "Hôm này đã đồng bộ"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr "Chỉ đồng bộ MAL một lần mỗi ngày"
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "Eskil Heyn Olsen <deity@eskil.dk>"
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+msgid "Gnome Pilot MAL conduit"
+msgstr "Ống dẫn MAL Pilot Gnome"
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "Tác quyền © năm 1999 của Tổ Chức Phần Mềm Tự Do"
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+"Tiện ích cấu hình cho ống dẫn MAL.\n"
+"MAL là giao thức Liên Kết Ứng Dụng Di Động (Mobile Application Link). Xem « "
+"http://www.mobilelink.org/ » để tìm thông tin thêm."
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-vô_danh.xpm"
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "Đã bật"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "Tình trạng ống dẫn"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"Không có PDA được cấu hình:\n"
+"trước tiên hãy chọn tiểu dụng thoại\n"
+"« Tài sản liên kết PDA »."
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "Hiện thời không kết nối đến trình nền gnome-pilot"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+"Gặp lỗi khi thử lấy danh sách PDA\n"
+"từ trình nền gnome-pilot"
+
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr "Ống dẫn ghi chú Gpilotd"
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "Tác quyền © năm 1998 của Tổ Chức Phần Mềm Tự Do"
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "Tiện ích cấu hình cho ống dẫn ghi chú.\n"
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "Không thể khởi động trình nền GnomePilot"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "Không thể kết nối đến trình nền GnomePilot"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr "Ghi chú rằng Hệ điều hành PalmOS phiên bản 3.3 không thể đặt đúng giờ."
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "Không thể đặt giờ do PalmOS 3.3"

@@ -1,0 +1,3 @@
+SUBDIRS = common client
+
+DIST_SUBDIRS=$(SUBDIRS)

@@ -1,0 +1,39 @@
+2005-08-10  JP Rosevear  <jpr@novell.com>
+
+	* time.conduit.in:  use LIBDIR and DATADIR for
+	substitution
+
+	* Makefile.am: clean .conduit files properly; create
+	.conduit file with new rule
+	
+2005-02-03  JP Rosevear  <jpr@novell.com>
+
+	From Dave Malcolm <dmalcolm@redhat.com>
+	
+	* time-conduit.c (synchronize): write log message properly
+
+2005-02-03  JP Rosevear  <jpr@novell.com>
+	
+	* Makefile.am: remove unnecessary local install rule 
+
+2003-03-25  JP Rosevear  <jpr@ximian.com>
+
+	* time-conduit.[hc]: remove pda setting the desktop time related
+	stuff
+	(synchronize): check for palm os version 3.3, which can't properly
+	set the time
+
+2003-01-26  Chris Toshok  <toshok@ximian.com>
+
+	* time-conduit.c (LOG): fix cpp problems with pasting.
+	(createCfgWindow): fix compiler warnings.
+	(conduit_load_gpilot_conduit): fix signal connection.
+
+	* Makefile.am (INCLUDES): simplify, use
+	GNOME_PILOT_CONDUITS_CFLAGS.
+	(libtime_conduit_la_LIBADD): simplify, use
+	GNOME_PILOT_CONDUITS_LIBS.
+
+2002-04-25  JP Rosevear  <jpr@ximian.com>
+
+	* time/time.conduit.in: make the default sync type be custom

@@ -1,0 +1,120 @@
+gnome-pilot-conduits 2.0.17 'Pippi', 2009-01-07
+-----------------------------------------------
+
+Updated translations:
+     ar (Djihed Afifi)
+     oc (Yannig Marchegay)
+     pt_BR (Henrique P Machado and Pedro de Medeiros)
+     
+
+gnome-pilot-conduits 2.0.16 'Quixote', 2008-02-27
+-------------------------------------------------
+
+Bug Fix:
+     * #478123: Replace md5 implementation in mal-conduit with
+	a version provided by pilot-link that is compatible
+	with the GPL.
+
+New translations:
+        * Latvian:  Raivis Dejus
+	* Dzongkha: Pema Geyleg
+
+Updated translations:
+	* Catalan:  Gil Forcada
+	* Nepali:   Pawan Chitrakar
+	* Occitan:  Yannig Marchegay
+	* Arabic:   Djihed Afifi
+
+gnome-pilot-conduits 2.0.15 'Alice', 2006-11-22
+-----------------------------------------------
+No code changes in this release, just updated translations.
+
+New translation:
+     * ar:    New arabic translation, with thanks to Djihed Afifi
+
+Updated translations:
+     hu (Gabor Kelemen)
+     ca (Xavier Conde Rued)
+     fi (Ilkka Tuohela)
+     ne (Pawan Chitrakar)
+     nl (Tino Meinen)
+     it (Andrea Zagli)
+     en_GB (David Lodge)
+
+
+gnome-pilot-conduits 2.0.14 'Felix', 2006-09-05
+-----------------------------------------------
+Main changes:
+   - Updated to work with pilot-link 0.12.0
+   - Several critical bugs fixed.
+
+Bugzilla bugs fixed (see http://bugzilla.gnome.org):
+   - #113979: Support for non-UTF8 locales, using PILOT_CHARSET
+   - #117172: gpilot-control-applet crashed while viewing pilot settings
+   - #157907: Crashed when enabled finances app
+   - #311072: Patch to fix crashes in expense conduit
+   - #322894: Editing memo and expense conduit causes misbehaviour and crash
+   - #340152: gpilotd crashes while syncing avantgo conduit
+
+
+Other bugs
+
+   - Improve layout of configuration panels, to make it more HIG compliant.
+
+
+Updated translations:
+        -cs Miloslav Trmac
+	-es Francisco Javier F. Serrador
+	-sv Daniel Nylander
+	-zh_TW Chao-Hsiung Liao
+	-zh_HK Chao-Hsiung Liao
+	-fi Ilkka Tuohela
+	-pt_BR Raphael Higino
+	-bg Alexander Shopov
+	-vi Clytie Siddall
+	-it Alessio Frusciante
+	-ne Pawan Chitrakar
+	-de Hendrik Brandt
+	-uk Maxim Dziumanenko
+
+gnome-pilot-conduits 2.0.13 'Lucky', 2005-04-04
+-----------------------------------------------
+
+Bugzilla bugs fixed (see http://bugzilla.gnome.org):
+
+Other bugs
+
+   - fix possible buffer overflow in mal conduit (Dave Malcolm)
+   - write log message correctly in time conduit (Dave Malcolm)
+
+
+Updated translations:
+	-rw (Steve Murphy)
+	-xh (Adi Attar)
+	-wa (Pablo Saratxaga)
+	-en_CA (Adam Weinberger)
+	-sk (Marcel Telka)
+	-sv (Christian Rose)
+	-de (Hendrik Brandt)
+	-en_GB (David Lodge)
+	-fr (Christophe Merlet)
+	-hu (Laszlo Dvornik)
+	-zh_TW (Abel Cheung)
+	-sq (Laurent Dhima)
+	-nl (Tino Meinen)
+
+0.10
+
+	Updated to work with gnome-pilot 0.1.66/pilot-link 0.11.x
+
+	Email conduit updates (Daniel Thompson)
+
+0.9
+	
+	Fix includes
+
+0.7
+	Now we have a NEWS file...
+
+	mal conduit supports proxies (I think, check README)
+

@@ -1,0 +1,263 @@
+# Translation into the walloon language.
+#
+# Si vos voloz donner on côp di spale pol ratournaedje di Gnome (ou des
+# ôtes libes programes) sicrijhoz mu a l' adresse emile
+# <srtxg@chanae.alphanet.ch>; nos avans co bråmint di l' ovraedje a fé.
+#
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 2001, 2003
+# Pablo Saratxaga <pablo@walon.org>, 2004, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pilot-conduits 0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2005-04-01 10:52+0200\n"
+"Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
+"Language-Team: Walloon <linux-wa@walon.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr "Tchoezixhoz ene boesse ås letes (fitchî sôre «mbox» ou ridant «MH»)"
+
+#. send_action option menu
+#: email/email_conduit.c:787
+#, fuzzy
+msgid "Send Action:"
+msgstr "Evoyî accion"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr "Disfacer do PDA"
+
+#: email/email_conduit.c:796
+msgid "File on PDA"
+msgstr "Fitchî sol PDA"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "Di:"
+
+#. sendmail entry
+#: email/email_conduit.c:815
+#, fuzzy
+msgid "Sendmail command:"
+msgstr "Comande po sendmail"
+
+#. receive_action option menu
+#: email/email_conduit.c:823
+#, fuzzy
+msgid "Receive Action:"
+msgstr "Riçure accion"
+
+#: email/email_conduit.c:827
+msgid "Copy from Inbox"
+msgstr "Copyî a pårti des messaedjes en intrêye"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr "Disfacer des messaedjes en intrêye"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr "Fé on muroe des messaedjes en intrêye"
+
+#. mbox_file entry
+#: email/email_conduit.c:848
+#, fuzzy
+msgid "Copy mail from:"
+msgstr "Copyî l' emile viè"
+
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "Manoye nén cnoxhowe"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr "Nou ridant di dné. Enondez l' aplikete condût «expense» d' aprume."
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "djoû/moes/anêye"
+
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "moes/djoû/anêye"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "Dispoy li 01/01/1970 (e seg)"
+
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "Cogne locåle"
+
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "Simpe"
+
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "Complesse"
+
+#: expense/expense_conduit.c:478
+#, fuzzy
+msgid "Expense Directory:"
+msgstr "Ridant des dispinses"
+
+#: expense/expense_conduit.c:479
+#, fuzzy
+msgid "Directory Mode:"
+msgstr "Môde do ridant"
+
+#: expense/expense_conduit.c:480
+#, fuzzy
+msgid "File Mode:"
+msgstr "Môde do fitchî"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+#, fuzzy
+msgid "Date Format:"
+msgstr "Cogne del date"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+#, fuzzy
+msgid "Output Format:"
+msgstr "Cogne di rexhowe"
+
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "Ridant po les memos:"
+
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "Cominçmint a passer houte:"
+
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "Fén a passer houte:"
+
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "Môde do ridant:"
+
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "Môde des fitchîs:"
+
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "Môde des fitchîs screts:"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr "Nou ridant di dné. Enondez l' aplikete condût «memo_file» d' aprume."
+
+#: mal-conduit/src/mal-conduit.c:146
+msgid "Already synchronized today"
+msgstr "Sincronijhaedje dedja fwait ouy"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr "Sincronijhî l' MAL on côp pa djoû seulmint"
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "Eskil Heyn Olsen <deity@eskil.dk>"
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+msgid "Gnome Pilot MAL conduit"
+msgstr "Condût MAL di Gnome Pilot"
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "© 1999 li Free Software Foundation"
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+"Usteye d' apontiaedje pol condût MAL.\n"
+"MAL c' est l' protocole di loyaedje d' aplicåcions mobiles (Mobile "
+"Application Link), loukîz a http://www.mobilelink.org po pus di racsegnes."
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-unknown.xpm"
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "En alaedje"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "Estat do condût"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"Nou pilot d' apontyî, tchoezixhoz d' aprume\n"
+"l' aplikete «Prôpietés do loyén Pilot» s' i vs plait."
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "Nén raloyî å démon gnome-pilot"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+#, fuzzy
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+"Åk n' a nén stî cwand dji sayive di prinde\n"
+"li djivêye des pilot do démon gnome-pilot."
+
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr "Condût memo di gpilotd"
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "© 1998 li Free Software Foundation"
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "Usteye d' apontiaedje pol condût memo.\n"
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "Dji n' sai inicyî l' démon GnomePilot"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "Dji n' sai m' raloyî å démon GnomePilot"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr ""
+"Notez s' i vs plait ki PalmOS 3.3 èn sait nén apontyî comifåt l' eure et "
+"l' date."
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "Dji n' sai apontyî cl' eure et l' date a cåze di PalmOS 3.3."

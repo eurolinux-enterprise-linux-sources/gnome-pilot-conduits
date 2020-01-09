@@ -1,0 +1,270 @@
+# gnome-pilot Greek translation.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 2000.
+# Simos Xenitellis <simos@hellug.gr>, 2000.
+#
+# spyros:
+#   Did initial 270 messages (approx.).
+# simos:
+#   250 mensajes traducidos, 19 traducciones difusas, 25 mensajes sin traducir.
+#   Updated the above, now done 294 messages.
+# simos: 319 messages, 17Feb2001. (sgpbea)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pilot 0.1.57pre1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2004-04-13 18:46+0200\n"
+"Last-Translator: Velonis Petros <velonis@freemail.gr>\n"
+"Language-Team: Greek <gnomehellas@gmx.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr ""
+
+#  send_action option menu
+#. send_action option menu
+#: email/email_conduit.c:787
+#, fuzzy
+msgid "Send Action:"
+msgstr "Αποστολή Ενέργειας"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr "Διαγραφή από το PDA"
+
+#: email/email_conduit.c:796
+msgid "File on PDA"
+msgstr "Αρχείο στο PDA"
+
+#  from_address entry
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "Από:"
+
+#  sendmail entry
+#. sendmail entry
+#: email/email_conduit.c:815
+#, fuzzy
+msgid "Sendmail command:"
+msgstr "Εντολή SendMail"
+
+#  receive_action option menu
+#. receive_action option menu
+#: email/email_conduit.c:823
+#, fuzzy
+msgid "Receive Action:"
+msgstr "Λήψη Ενέργειας"
+
+#: email/email_conduit.c:827
+msgid "Copy from Inbox"
+msgstr "Αντιγραφή από το Γραμματοκιβώτιο"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr "Διαγραφή από το Γραμματοκιβώτιο"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr ""
+
+#  mbox_file entry
+#. mbox_file entry
+#: email/email_conduit.c:848
+#, fuzzy
+msgid "Copy mail from:"
+msgstr "Αντιγραφή γράμματος από"
+
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "Άγνωστο Σύμβολο Νομίσματος"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+"Δεν καθορίστηκε κατάλογος.  Παρακαλώ εκτελέστε πρώτα το εφαρμογίδιο ελέγχου "
+"του αγωγού εξόδων."
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "Ημέρα/Μήνας/Έτος"
+
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "Μήνας/Ημέρα/Έτος"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "Από 1970-01-01 (σε δ/λεπτά)"
+
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "Τοπική μορφή"
+
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "Απλή"
+
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "Σύνθετη"
+
+#: expense/expense_conduit.c:478
+#, fuzzy
+msgid "Expense Directory:"
+msgstr "Κατάλογος Εξόδων"
+
+#: expense/expense_conduit.c:479
+#, fuzzy
+msgid "Directory Mode:"
+msgstr "Κατάσταση Καταλόγου"
+
+#: expense/expense_conduit.c:480
+#, fuzzy
+msgid "File Mode:"
+msgstr "Κατάσταση Αρχείου"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+#, fuzzy
+msgid "Date Format:"
+msgstr "Μορφή Ημ/νίας"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+#, fuzzy
+msgid "Output Format:"
+msgstr "Μορφή Εξόδου"
+
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "Κατάλογος σημειωμάτων:"
+
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "Αγνόηση αρχής:"
+
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "Αγνόηση τέλους:"
+
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "Κατάσταση καταλόγου:"
+
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "Κατάσταση αρχείων:"
+
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "Κατάσταση κρυφών αρχείων:"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr ""
+"Δεν καθορίστηκε κατάλογος.  Παρακαλώ εκτελέστε πρώτα το εφαρμογίδιο ελέγχου "
+"του αγωγού σημειωμάτων."
+
+#: mal-conduit/src/mal-conduit.c:146
+#, fuzzy
+msgid "Already synchronized today"
+msgstr "Έτοιμος για συγχρονισμό"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "Έσκιλ Χάιν Όλσεν <deity@eskil.dk>"
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+#, fuzzy
+msgid "Gnome Pilot MAL conduit"
+msgstr "Αγωγός σημειωμάτων του Gpilotd"
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+#, fuzzy
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "(C) 1998 Free Software Foundation"
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-unknown.xpm"
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "Ενεργό"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "Κατάσταση αγωγού"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"Δεν υπάρχουν ρυθμίσεις για καμία συσκευή, παρακαλώ επιλέξτε\n"
+"πρώτα το εφαρμογίδιο ελέγχου 'Ιδιότητες Σύνδεσης Πιλότου'."
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+#, fuzzy
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "Αδύνατη η σύνδεση με το δαίμονα του GnomePilot"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+
+#: memo/memo-conduit-control-applet.c:137
+#, fuzzy
+msgid "Gpilotd memo conduit"
+msgstr "Αγωγός σημειωμάτων του Gpilotd"
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "(C) 1998 Free Software Foundation"
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr ""
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "Αδύνατη η αρχικοποίηση του δαίμονα GnomePilot"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "Αδύνατη η σύνδεση με το δαίμονα του GnomePilot"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr "Προσοχή! Το PalmOS 3.3 δε μπορεί να ορίσει σωστά την ώρα."
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "Αδύνατο να οριστεί η ώρα λόγω του PalmOS 3.3"

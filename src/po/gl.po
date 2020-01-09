@@ -1,0 +1,1281 @@
+# Galician translation of gnome-pilot.
+# Copyright (C) 2000 Jesús Bravo Álvarez.
+# Jesús Bravo Álvarez <jba@pobox.com>, 2000.
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en http://trasno.gpul.org
+#
+# First Version: 2000-05-14 13:24+0200
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-pilot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2000-09-21 00:11+0200\n"
+"Last-Translator: Jesús Bravo Álvarez <jba@pobox.com>\n"
+"Language-Team: Galician <trasno@ceu.fi.udc.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr ""
+
+#. send_action option menu
+#: email/email_conduit.c:787
+#, fuzzy
+msgid "Send Action:"
+msgstr "Acción de Sincronización"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr ""
+
+#: email/email_conduit.c:796
+#, fuzzy
+msgid "File on PDA"
+msgstr "Modo do Ficheiro"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr ""
+
+#. sendmail entry
+#: email/email_conduit.c:815
+#, fuzzy
+msgid "Sendmail command:"
+msgstr "Opcións do SendMail"
+
+#. receive_action option menu
+#: email/email_conduit.c:823
+#, fuzzy
+msgid "Receive Action:"
+msgstr "Acción de Sincronización"
+
+#: email/email_conduit.c:827
+#, fuzzy
+msgid "Copy from Inbox"
+msgstr "Copiar do pilot"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr ""
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr ""
+
+#. mbox_file entry
+#: email/email_conduit.c:848
+#, fuzzy
+msgid "Copy mail from:"
+msgstr "Copiar do pilot"
+
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "Símbolo de Moeda Descoñecido"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+"Ningún directorio especificado. Execute a capplet do conducto de gastos en "
+"primeiro lugar."
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "Día/Mes/Ano"
+
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "Mes/Día/Ano"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "Dende o 01-01-1970 (en seg)"
+
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "Formato local"
+
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "Simple"
+
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "Complexo"
+
+#: expense/expense_conduit.c:478
+#, fuzzy
+msgid "Expense Directory:"
+msgstr "Directorio de Gastos"
+
+#: expense/expense_conduit.c:479
+#, fuzzy
+msgid "Directory Mode:"
+msgstr "Modo do Directorio"
+
+#: expense/expense_conduit.c:480
+#, fuzzy
+msgid "File Mode:"
+msgstr "Modo do Ficheiro"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+#, fuzzy
+msgid "Date Format:"
+msgstr "Formato da Data"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+#, fuzzy
+msgid "Output Format:"
+msgstr "Formato da Saída"
+
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "Directorio das notas:"
+
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "Ignorar o comezo:"
+
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "Ignorar o final:"
+
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "Modo do directorio:"
+
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "Modo dos ficheiros:"
+
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "Modo dos ficheiros segredos:"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr ""
+"Ningún directorio especificado. Execute a capplet do conducto notas-"
+"ficheiros en primeiro lugar."
+
+#: mal-conduit/src/mal-conduit.c:146
+#, fuzzy
+msgid "Already synchronized today"
+msgstr "Preparado para sincronizar"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "Eskil Heyn Olsen <deity@eskil.dk>"
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+#, fuzzy
+msgid "Gnome Pilot MAL conduit"
+msgstr "Conductos do GnomePilot"
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "(C) 1999 the Free Software Foundation"
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-unknown.xpm"
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "Activado"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "Estado do conducto"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"Non hai ningún pilot configurado, escolla primeiro\n"
+"a capplet 'Propiedades da Ligazón co Pilot'."
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "Non conectado ó demo gnome-pilot"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+#, fuzzy
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+"Ocorreu un erro ó obte-la lista de\n"
+"pilots do demo gnome-pilot"
+
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr "Conducto de notas do gpilotd"
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "(C) 1998 the Free Software Foundation"
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "Utilidade de configuración do conducto de notas.\n"
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "Non se pode inicializa-lo Demo GnomePilot"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "Non se pode conectar ó Demo GnomePilot"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr ""
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr ""
+
+#~ msgid "Synchronizing..."
+#~ msgstr "Sincronizando..."
+
+#, fuzzy
+#~ msgid "%s Synchronizing"
+#~ msgstr "Sincronizando..."
+
+#, fuzzy
+#~ msgid "%s Synchronizing : %s"
+#~ msgstr "Sincronizando %s\n"
+
+#~ msgid "Not connected. Restart daemon to reconnect"
+#~ msgstr "Non conectado. Reinicie o demo para reconectar"
+
+#~ msgid ""
+#~ "Pilot is currently synchronizing.\n"
+#~ "Please wait for it to finish."
+#~ msgstr ""
+#~ "O Pilot está neste intre a se sincronizar.\n"
+#~ "Agarde a que remate."
+
+#~ msgid "Not connected. Please restart daemon."
+#~ msgstr "Non conectado. Reinicie o demo."
+
+#~ msgid ""
+#~ "Not connected to gpilotd.\n"
+#~ "Please restart daemon."
+#~ msgstr ""
+#~ "Non conectado a gpilotd.\n"
+#~ "Reinicie o demo."
+
+#, fuzzy
+#~ msgid "Restoring %s"
+#~ msgstr "Restaurando %s dende %s... "
+
+#~ msgid "No directory to restore from."
+#~ msgstr "Non hai ningún directorio do que restaurar."
+
+#~ msgid ""
+#~ "Press synchronize on the cradle to restore\n"
+#~ " or cancel the operation."
+#~ msgstr ""
+#~ "Prema sincronizar no soporte para restaurar\n"
+#~ " ou cancele a operación."
+
+#~ msgid "Restore request failed"
+#~ msgstr "Petición de restaurar fallida"
+
+#~ msgid "GNOME PilotSync Properties"
+#~ msgstr "Propiedades de PilotSync de GNOME"
+
+#~ msgid "Execution of %s failed"
+#~ msgstr "Fallou a execución de %s"
+
+#~ msgid "There's no last sync on record."
+#~ msgstr "Non hai ningunha última sincronización no rexistro."
+
+#, fuzzy
+#~ msgid "installing \"%s\""
+#~ msgstr "Instalando en %s:\n"
+
+#, fuzzy
+#~ msgid "unknown dnd type"
+#~ msgstr "Tipo de dispositivo descoñecido"
+
+#~ msgid "Gnome Pilot Applet"
+#~ msgstr "Applet de Gnome Pilot"
+
+#~ msgid "(C) 2000 Free Software Foundation "
+#~ msgstr "(C) 2000 Free Software Foundation "
+
+#~ msgid ""
+#~ "A dnd and gui monitor for gpilotd.\n"
+#~ "Visit Website at http://www.gnome.org/gnome-pilot"
+#~ msgstr ""
+#~ "Un monitor para o gpilotd con interface gráfica e soporte dnd.\n"
+#~ "Visite a páxina web en http://www.gnome.org/gnome-pilot"
+
+#~ msgid ""
+#~ "Pilot sync is currently in progress.\n"
+#~ "Are you sure you want to restart daemon?"
+#~ msgstr ""
+#~ "Estase a desenvolver unha sincronización co Pilot.\n"
+#~ "¿Está seguro de querer reinicia-lo demo?"
+
+#~ msgid "Trying to connect to the GnomePilot Daemon"
+#~ msgstr "Tentando conectarse ó Demo GnomePilot"
+
+#~ msgid "Daemon paused"
+#~ msgstr "Demo parado"
+
+#~ msgid "Resume daemon"
+#~ msgstr "Reactivar demo"
+
+#~ msgid "Pause daemon"
+#~ msgstr "Parar demo"
+
+#~ msgid "Restore..."
+#~ msgstr "Restaurar..."
+
+#~ msgid "Restart daemon"
+#~ msgstr "Reiniciar demo"
+
+#~ msgid "Last sync log..."
+#~ msgstr "Rexistro da última sincronización..."
+
+#~ msgid "Conduit Settings..."
+#~ msgstr "Configuración do Conducto..."
+
+#~ msgid "Pilot Link Settings..."
+#~ msgstr "Propiedades da Ligazón co Pilot..."
+
+#~ msgid "Properties..."
+#~ msgstr "Propiedades..."
+
+#~ msgid "About..."
+#~ msgstr "Acerca de..."
+
+#~ msgid "Cannot find pilot-applet.glade"
+#~ msgstr "Non se pode atopar pilot-applet.glade"
+
+#~ msgid "Choose Pilot"
+#~ msgstr "Escoller Pilot"
+
+#~ msgid "\n"
+#~ msgstr "\n"
+
+#~ msgid "Gnome-Pilot Sync Progress"
+#~ msgstr "Evolución da Sincronización de Gnome-Pilot"
+
+#~ msgid "%P %%"
+#~ msgstr "%P %%"
+
+#~ msgid "Execute when clicked"
+#~ msgstr "Executar ó premer"
+
+#~ msgid "Display notices"
+#~ msgstr "Amosar avisos"
+
+#~ msgid "Applet options"
+#~ msgstr "Opcións da applet"
+
+#~ msgid "Restore Pilot"
+#~ msgstr "Restaurar Pilot"
+
+#~ msgid "Directory"
+#~ msgstr "Directorio"
+
+#~ msgid "Pilot ID"
+#~ msgstr "ID do pilot"
+
+#~ msgid "Sync cradle"
+#~ msgstr "Sincronizar soporte"
+
+#~ msgid "Please specify a cradle port"
+#~ msgstr "Especifique un porto do soporte"
+
+#~ msgid "Read/Write permissions failed on"
+#~ msgstr "Fallo dos permisos de lectura/escritura en"
+
+#~ msgid "Check the permissions on the device and retry"
+#~ msgstr "Comprobe os permisos no dispositivo e tente de novo"
+
+#~ msgid ""
+#~ "Press synchronize on the %s (%s)\n"
+#~ "or cancel the operation."
+#~ msgstr ""
+#~ "Prema sincronizar en %s (%s)\n"
+#~ "ou cancele a operación."
+
+#~ msgid "You must have at least one device setup"
+#~ msgstr "Ten que ter polo menos un dispositivo configurado"
+
+#~ msgid "The request to get pilot id failed"
+#~ msgstr "A petición para obter o id do pilot fallou"
+
+#~ msgid "The request to set pilot id failed"
+#~ msgstr "A petición para establecer o id do pilot fallou"
+
+#~ msgid "Synchronize"
+#~ msgstr "Sincronizar"
+
+#~ msgid "Copy to pilot"
+#~ msgstr "Copiar ó pilot"
+
+#~ msgid "Merge from pilot"
+#~ msgstr "Mesturar do pilot"
+
+#~ msgid "Merge to pilot"
+#~ msgstr "Mesturar ó pilot"
+
+#~ msgid "Use conduit settings"
+#~ msgstr "Utiliza-la configuración do conducto"
+
+#~ msgid ""
+#~ "The specified base directory exists but has the wrong permissions.\n"
+#~ "Please fix or choose another directory"
+#~ msgstr ""
+#~ "O directorio base especificado existe pero ten os permisos erróneos.\n"
+#~ "Arránxeo ou escolla outro directorio"
+
+#~ msgid ""
+#~ "The specified base directory exists but is not a directory.\n"
+#~ "Please make it a directory or choose another directory"
+#~ msgstr ""
+#~ "O directorio base especificado existe pero non é un directorio.\n"
+#~ "Faga que sexa un directorio ou escolla outro directorio"
+
+#~ msgid ""
+#~ "It wasn't possible to create the specified base directory.\n"
+#~ "Please verify the permitions on the specified path or choose another "
+#~ "directory"
+#~ msgstr ""
+#~ "Non foi posible crea-lo directorio base especificado.\n"
+#~ "Verifique os permisos no camiño especificado ou escolla outro directorio"
+
+#~ msgid ""
+#~ "The path specified for the base directory is invalid.\n"
+#~ "Please choose another directory"
+#~ msgstr ""
+#~ "O camiño especificado para o directorio base é inválido.\n"
+#~ "Escolla outro directorio"
+
+#~ msgid "Pilot with this id or name already exists."
+#~ msgstr "Xa existe un pilot con este id ou nome."
+
+#~ msgid "Are you sure you want to delete %s pilot?"
+#~ msgstr "¿Está seguro de querer borrar o pilot %s?"
+
+#~ msgid "Cradle with this port or name already exists."
+#~ msgstr "Xa existe un soporte con este porto ou nome."
+
+#~ msgid "Serial"
+#~ msgstr "Serie"
+
+#~ msgid "Handspring USB"
+#~ msgstr "Handspring USB"
+
+#~ msgid "IrDA"
+#~ msgstr "IrDA"
+
+#, fuzzy
+#~ msgid "Are you sure you want to delete %s (%s) device?"
+#~ msgstr "¿Está seguro de querer borra-lo dispositivo %s(%s)?"
+
+#~ msgid "Cannot find gpilotd-capplet.glade"
+#~ msgstr "Non se pode atopar gpilotd-capplet.glade"
+
+#~ msgid "Start druid only"
+#~ msgstr "Iniciar só o druida"
+
+#~ msgid "Error initializing gpilotd capplet"
+#~ msgstr "Erro inicializando a capplet de gpilotd"
+
+#~ msgid "Error loading pilot state, aborting"
+#~ msgstr "Erro cargando o estado do pilot, abortando"
+
+#~ msgid "Cannot run druid if pilots or cradles already configured"
+#~ msgstr ""
+#~ "Non se pode executa-lo druida se xa están configurados os pilots ou os "
+#~ "soportes"
+
+#~ msgid ""
+#~ "Successfully retrieved UserName and ID to pilot.\n"
+#~ "UserName: %s\n"
+#~ "ID: %d"
+#~ msgstr ""
+#~ "Enviouse correctamente o Nome de Usuario e o ID ó pilot.\n"
+#~ "Nome de Usuario: %s\n"
+#~ "ID: %d"
+
+#~ msgid "Successfully sent UserName and ID to pilot."
+#~ msgstr "Enviado correctamente o Nome de Usuario e o ID ó pilot."
+
+#~ msgid ""
+#~ "Setup did not complete and settings will not\n"
+#~ "be saved. Are you sure you want to quit?"
+#~ msgstr ""
+#~ "A configuración non se completou e as propiedades\n"
+#~ "non foron gardadas. ¿Está seguro de querer saír?"
+
+#~ msgid ""
+#~ "About to send the following data to the pilot.\n"
+#~ "UserName: %s\n"
+#~ "ID: %d\n"
+#~ "Please put pilot in %s (%s) and press HotSync button."
+#~ msgstr ""
+#~ "A piques de enviar os seguintes datos ó pilot.\n"
+#~ "Nome de Usuario: %s\n"
+#~ "ID: %d\n"
+#~ "Poña o pilot en %s (%s) e prema o botón HotSync."
+
+#~ msgid ""
+#~ "About to retrieve UserName and ID from the pilot.\n"
+#~ "Please put pilot in %s (%s) and press HotSync button."
+#~ msgstr ""
+#~ "A piques de obte-lo Nome de Usuario e o ID do pilot.\n"
+#~ "Poña o pilot en %s (%s) e prema o botón HotSync."
+
+#~ msgid "Failed sending request to gpilotd"
+#~ msgstr "Fallo ó envia-la petición ó gpilotd"
+
+#~ msgid "Pilot Settings"
+#~ msgstr "Propiedades do Pilot"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "UserName"
+#~ msgstr "Nome de Usuario"
+
+#~ msgid "Sync Type"
+#~ msgstr "Tipo de Sincronización"
+
+#~ msgid "Add..."
+#~ msgstr "Engadir..."
+
+#~ msgid "Edit..."
+#~ msgstr "Editar..."
+
+#~ msgid "Delete"
+#~ msgstr "Borrar"
+
+#~ msgid "Pilots"
+#~ msgstr "Pilots"
+
+#~ msgid "Port"
+#~ msgstr "Porto"
+
+#~ msgid "Speed"
+#~ msgstr "Velocidade"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Devices"
+#~ msgstr "Dispositivos"
+
+#~ msgid "SyncPCid"
+#~ msgstr "SyncPCid"
+
+#~ msgid "Advanced"
+#~ msgstr "Avanzado"
+
+#~ msgid "Device Settings"
+#~ msgstr "Propiedades do Dispositivo"
+
+#~ msgid ""
+#~ "/dev/pilot\n"
+#~ "/dev/ttyS0\n"
+#~ "/dev/ttyS1\n"
+#~ "/dev/ttyS2\n"
+#~ "/dev/ttyS3\n"
+#~ "/dev/ttyqe\n"
+#~ msgstr ""
+#~ "/dev/pilot\n"
+#~ "/dev/ttyS0\n"
+#~ "/dev/ttyS1\n"
+#~ "/dev/ttyS2\n"
+#~ "/dev/ttyS3\n"
+#~ "/dev/ttyqe\n"
+
+#~ msgid "/dev/pilot"
+#~ msgstr "/dev/pilot"
+
+#~ msgid "Pilot Identification"
+#~ msgstr "Identificación do Pilot"
+
+#~ msgid "User Name"
+#~ msgstr "Nome de Usuario"
+
+#~ msgid "Get User Name and ID from existing pilot that was used before."
+#~ msgstr ""
+#~ "Obte-lo Nome de Usuario e o ID dun pilot existente que xa foi usado antes."
+
+#~ msgid "get from pilot"
+#~ msgstr "obter do pilot"
+
+#~ msgid "Set User Name and ID to a new pilot."
+#~ msgstr "Establecer o Nome de Usuario e o ID nun novo pilot."
+
+#~ msgid "send to pilot"
+#~ msgstr "enviar ó pilot"
+
+#~ msgid "Pilot Attributes"
+#~ msgstr "Atributos do Pilot"
+
+#~ msgid "Pilot Name"
+#~ msgstr "Nome do Pilot"
+
+#~ msgid "Local basedir"
+#~ msgstr "Directorio base local"
+
+#~ msgid "Choose Device"
+#~ msgstr "Escoller Dispositivo"
+
+#~ msgid "Gnome Pilot Settings"
+#~ msgstr "Propiedades de Gnome Pilot"
+
+#~ msgid "Welcome to gnome-pilot!"
+#~ msgstr "¡Benvido a gnome-pilot!"
+
+#~ msgid ""
+#~ "You seem to be running gnome-pilot for the first time.\n"
+#~ "The following steps will setup gnome-pilot for syncing. \n"
+#~ "You can always change any options later from\n"
+#~ "PilotLink panel in Gnome Control Center.\n"
+#~ "\n"
+#~ "Press 'Next' to continue.\n"
+#~ "Press 'Cancel' for manual setup."
+#~ msgstr ""
+#~ "Semella que está a executar gnome-pilot por primeira vez.\n"
+#~ "Os seguintes pasos configurarán gnome-pilot para sincronizacións.\n"
+#~ "Sempre pode cambia-las opcións máis tarde dende o Panel\n"
+#~ "PilotLink no Centro de Control de Gnome.\n"
+#~ "\n"
+#~ "Prema 'Seguinte' para continuar.\n"
+#~ "Prema 'Cancelar' para unha configuración manual."
+
+#~ msgid "Cradle Settings"
+#~ msgstr "Propiedades do Soporte"
+
+#~ msgid ""
+#~ "/dev/pilot\n"
+#~ "/dev/ttyS0\n"
+#~ "/dev/ttyS1\n"
+#~ "/dev/ttyS2\n"
+#~ "/dev/ttyS3\n"
+#~ msgstr ""
+#~ "/dev/pilot\n"
+#~ "/dev/ttyS0\n"
+#~ "/dev/ttyS1\n"
+#~ "/dev/ttyS2\n"
+#~ "/dev/ttyS3\n"
+
+#~ msgid "Yes, I've used sync software with this pilot before."
+#~ msgstr "Si, xa usei antes software de sincronización con este pilot."
+
+#~ msgid "No, I've never used sync software with this pilot before."
+#~ msgstr "Non, nunca usei antes software de sincronización con este pilot."
+
+#~ msgid "User Name and ID to set on the Pilot"
+#~ msgstr "Nome de Usuario e ID a poñer no Pilot"
+
+#~ msgid "Initial Sync"
+#~ msgstr "Sincronización Inicial"
+
+#~ msgid "Success"
+#~ msgstr "Correcto"
+
+#~ msgid ""
+#~ "Congratulations!\n"
+#~ "\n"
+#~ "You have succesfully installed gnome-pilot.\n"
+#~ "\n"
+#~ "You can now setup individual conduits options from \n"
+#~ "control-center. If you started PilotSync applet you must \n"
+#~ "select \"Restart daemon\" menu.\n"
+#~ msgstr ""
+#~ "¡Noraboa!\n"
+#~ "\n"
+#~ "Instalou correctamente gnome-pilot.\n"
+#~ "\n"
+#~ "Agora pode configurar opcións individuais de conductos\n"
+#~ "dende o control-center. Se executou a applet PilotSync ten\n"
+#~ "que seleccionar o menú \"Reiniciar demo\".\n"
+
+#~ msgid "Pilot "
+#~ msgstr "Pilot "
+
+#~ msgid "Conduit Name"
+#~ msgstr "Nome do Conducto"
+
+#~ msgid "Enable"
+#~ msgstr "Activar"
+
+#~ msgid "Disable"
+#~ msgstr "Desactivar"
+
+#~ msgid "Settings"
+#~ msgstr "Propiedades"
+
+#~ msgid "Edit this pilot..."
+#~ msgstr "Editar este pilot..."
+
+#~ msgid "Delete this pilot"
+#~ msgstr "Borrar este pilot"
+
+#~ msgid "Edit this device..."
+#~ msgstr "Editar este dispositivo..."
+
+#~ msgid "Delete this device"
+#~ msgstr "Borrar este dispositivo"
+
+#~ msgid "window1"
+#~ msgstr "fiestra1"
+
+#~ msgid "Gpilotd backup conduit"
+#~ msgstr "Conducto de copia de seguridade de gpilotd"
+
+#~ msgid ""
+#~ "Configuration utility for the backup conduit.\n"
+#~ "The backup conduit is responsible for copying files from the pilot to the "
+#~ "local host, without doing any conversion, whereby ensuring that a proper "
+#~ "restore can be done"
+#~ msgstr ""
+#~ "Utilidade de configuración para o conducto de copia de seguridade.\n"
+#~ "O conducto de copia de seguridade é responsable de copiar ficheiros do "
+#~ "pilot ó ordenador, sen facer ningunha conversión, asegurando que se poida "
+#~ "facer unha restauración"
+
+#~ msgid "Backup directory"
+#~ msgstr "Directorio de copia de seguridade"
+
+#~ msgid "Only backup changed bases"
+#~ msgstr "Só facer copia de seguridade das bases modificadas"
+
+#~ msgid "Remove local base if deleted on pilot"
+#~ msgstr "Borrar a base local se foi borrada no pilot"
+
+#~ msgid "# of old backups to keep"
+#~ msgstr "número de copias de seguridade antigas a manter"
+
+#~ msgid "Backup options"
+#~ msgstr "Opcións da copia de seguridade"
+
+#~ msgid ""
+#~ "Could not create object for conduit.\n"
+#~ "Perhaps the conduit isn't properly installed ?"
+#~ msgstr ""
+#~ "Non se puido crea-lo obxecto para o conducto.\n"
+#~ "¿Pode que o conducto non estea ben instalado?"
+
+#~ msgid "%s not modified since last sync"
+#~ msgstr "%s non modificado dende a última sincronización"
+
+#~ msgid "Making backup of %s"
+#~ msgstr "Facendo unha copia de seguridade de %s"
+
+#~ msgid "Could not create backup file %s"
+#~ msgstr "Non se puido crea-lo ficheiro de copia de seguridade %s"
+
+#~ msgid "Backup of %s failed!"
+#~ msgstr "¡Fallou a copia de seguridade de %s!"
+
+#~ msgid "file"
+#~ msgstr "ficheiro"
+
+#~ msgid "delete"
+#~ msgstr "borrar"
+
+#~ msgid "Gpilotd SendMail conduit"
+#~ msgstr "Conducto SendMail do gpilotd"
+
+#~ msgid ""
+#~ "Configuration utility for the SendMail conduit.\n"
+#~ "The SendMail conduit is responsible for sending out mail composed on the "
+#~ "pilot"
+#~ msgstr ""
+#~ "Utilidade de configuración para o conducto SendMail.\n"
+#~ "O conducto SendMail é o responsable de envia-las mensaxes escritas no "
+#~ "pilot"
+
+#~ msgid "From E-mail Address"
+#~ msgstr "Enderezo E-mail de Orixe"
+
+#~ msgid "MH Mail directory"
+#~ msgstr "Directorio de Correo MH"
+
+#~ msgid "mbox file"
+#~ msgstr "ficheiro da caixa de correo"
+
+#~ msgid "Mailer location"
+#~ msgstr "Localización do xestor de correo"
+
+#~ msgid "Mail sent from pilot"
+#~ msgstr "Correo enviado dende o pilot"
+
+#~ msgid "Mail on Host"
+#~ msgstr "Correo no Ordenador"
+
+#~ msgid "Patrick Decowski <decowski@mit.edu>"
+#~ msgstr "Patrick Decowski <decowski@mit.edu>"
+
+#~ msgid "Gpilotd Expense conduit"
+#~ msgstr "Conducto de Gastos do gpilotd"
+
+#~ msgid ""
+#~ "Configuration utility for the Expense conduit.\n"
+#~ "The Expense conduit is responsible for getting expenses records from the "
+#~ "pilot"
+#~ msgstr ""
+#~ "Utilidade de configuración do conducto de Gastos.\n"
+#~ "O conducto de gastos é responsable de obte-los rexistros de gastos do "
+#~ "pilot"
+
+#~ msgid "Expense options"
+#~ msgstr "Opcións dos gastos"
+
+#~ msgid "Gpilotd file conduit"
+#~ msgstr "Conducto de ficheiros do gpilotd"
+
+#~ msgid ""
+#~ "Configuration utility for the file conduit.\n"
+#~ "The file conduit is responsible for installing files from the host to the "
+#~ "pilot"
+#~ msgstr ""
+#~ "Utilidade de configuración do conducto de ficheiros.\n"
+#~ "O conducto de ficheiros é responsable de instalar ficheiros do ordenador "
+#~ "no pilot"
+
+#~ msgid "Installing %s from %s..."
+#~ msgstr "Instalando %s dende %s..."
+
+#, fuzzy
+#~ msgid "Installing %s..."
+#~ msgstr "Instalando %s dende %s..."
+
+#~ msgid "Installing %s failed"
+#~ msgstr "Fallou a instalación de %s"
+
+#~ msgid "Restoring %s from %s... "
+#~ msgstr "Restaurando %s dende %s... "
+
+#~ msgid "Restore of %s failed"
+#~ msgstr "Restauración de %s fallida"
+
+#~ msgid "Install immediately"
+#~ msgstr "Instalación inmediata"
+
+#~ msgid "Install delayed"
+#~ msgstr "Instalación retrasada"
+
+#~ msgid "Pilot to install to"
+#~ msgstr "Pilot ó cal facer a instalación"
+
+#~ msgid "PILOT"
+#~ msgstr "PILOT"
+
+#~ msgid "Unable to get pilot names"
+#~ msgstr "Non se puideron obte-los nomes dos pilots"
+
+#~ msgid "Following files failed :\n"
+#~ msgstr "Fallaron os seguintes ficheiros:\n"
+
+#~ msgid "Installing to %s:\n"
+#~ msgstr "Instalando en %s:\n"
+
+#~ msgid "No files to install"
+#~ msgstr "Non hai ficheiros para instalar"
+
+#~ msgid ""
+#~ "Press synchronize on the cradle to install\n"
+#~ " or cancel the operation."
+#~ msgstr ""
+#~ "Prema sincronizar no soporte para instalar\n"
+#~ " ou cancele a operación."
+
+#~ msgid "Disabled"
+#~ msgstr "Desactivado"
+
+#~ msgid "Copy From Pilot"
+#~ msgstr "Copiar do Pilot"
+
+#~ msgid "Copy To Pilot"
+#~ msgstr "Copiar ó Pilot"
+
+#~ msgid "Merge From Pilot"
+#~ msgstr "Mesturar do Pilot"
+
+#~ msgid "Merge To Pilot"
+#~ msgstr "Mesturar ó Pilot"
+
+#~ msgid "Vadim Strizhevsky <vadim@optonline.net>"
+#~ msgstr "Vadim Strizhevsky <vadim@optonline.net>"
+
+#~ msgid "Gpilotd memo_file conduit"
+#~ msgstr "Conducto notas-ficheiros do gpilotd"
+
+#~ msgid ""
+#~ "Configuration utility for the memo_file conduit.\n"
+#~ "The memo_file conduit syncronizes memos from the pilot with text files on "
+#~ "the local host"
+#~ msgstr ""
+#~ "Utilidade de configuración do conducto memo-ficheiro.\n"
+#~ "O conducto de notas-ficheiros sincroniza as notas do pilot con ficheiros "
+#~ "de texto no ordenador"
+
+#~ msgid "Synchronize Action"
+#~ msgstr "Acción de Sincronización"
+
+#~ msgid "Memo Conduit State"
+#~ msgstr "Estado do Conducto de Notas"
+
+#~ msgid "Memo Conduit Options"
+#~ msgstr "Opcións do Conducto de Notas"
+
+#~ msgid "Conduits initialization failed, aborting operation"
+#~ msgstr "Fallou a inicialización dos conductos, cancelando a operación"
+
+#~ msgid "Unable to delete all records in pilot database, aborting operation."
+#~ msgstr ""
+#~ "Non se poden borrar tódolos rexistros na base de datos do pilot, "
+#~ "cancelando a operación."
+
+#~ msgid "Conduit did not return a record"
+#~ msgstr "O conducto non devolveu un rexistro"
+
+#~ msgid "Unable to delete all records in local database, aborting operation."
+#~ msgstr ""
+#~ "Non se poden borrar tódolos rexistros na base de datos local, cancelando "
+#~ "a operación."
+
+#~ msgid "Error in conduit, newly added record could not be found"
+#~ msgstr "Erro no conducto, non se puido atopa-lo rexistro recén engadido"
+
+#~ msgid "Could not open device %s (%s): reason: \"%s\"."
+#~ msgstr "Non se puido abri-lo dispositivo %s (%s): razón: \"%s\"."
+
+#~ msgid ""
+#~ "GnomePilot could not open device %s (%s).\n"
+#~ "Reason: \"%s\"."
+#~ msgstr ""
+#~ "GnomePilot non puido abri-lo dispositivo %s (%s).\n"
+#~ "Razón: \"%s\"."
+
+#~ msgid "Unknown device type"
+#~ msgstr "Tipo de dispositivo descoñecido"
+
+#~ msgid "Number of devices is configured to 0"
+#~ msgstr "O número de dispositivos está configurado a 0"
+
+#~ msgid ""
+#~ "No cradles configure.\n"
+#~ "Please run gpilotd-control-applet (use gnomecc)\n"
+#~ "to configure gnome-pilot."
+#~ msgstr ""
+#~ "Non hai ningún soporte configurado.\n"
+#~ "Execute a capplet do gpilotd (usando gnomecc)\n"
+#~ "para configurar gnome-pilot."
+
+#~ msgid "No accessible devices available"
+#~ msgstr "Non hai dispoñible ningún dispositivo accesible"
+
+#~ msgid "Number of pilots is configured to 0"
+#~ msgstr "O número de pilots está configurado a 0"
+
+#~ msgid ""
+#~ "No pilots configured.\n"
+#~ "Please run gpilotd-control-applet (use gnomecc)\n"
+#~ "to configure gnome-pilot."
+#~ msgstr ""
+#~ "Ningún pilot configurado.\n"
+#~ "Execute a capplet do gpilotd (usando gnomecc)\n"
+#~ "para configurar gnome-pilot."
+
+#~ msgid "Unable to bind to pilot"
+#~ msgstr "Non se pode conectar co pilot"
+
+#~ msgid "Cradle %s has %d events"
+#~ msgstr "O soporte %s ten %d eventos"
+
+#~ msgid "Setting userinfo..."
+#~ msgstr "Establecendo a información de usuario..."
+
+#~ msgid "Sync continues"
+#~ msgstr "A sincronización continúa"
+
+#~ msgid "Getting userinfo..."
+#~ msgstr "Obtendo a información de usuario..."
+
+#, fuzzy
+#~ msgid "NetSync request detected, synchronizing pilot"
+#~ msgstr "Premeuse o botón HotSync, sincronizando co pilot"
+
+#~ msgid "HotSync button pressed, synchronizing pilot"
+#~ msgstr "Premeuse o botón HotSync, sincronizando co pilot"
+
+#~ msgid "Pilot ID is %ld, name is %s, owner is %s"
+#~ msgstr "O ID do Pilot é %ld, o nome é %s, o dono é %s"
+
+#~ msgid "On host %s\n"
+#~ msgstr "Na máquina %s\n"
+
+#~ msgid "On host %d\n"
+#~ msgstr "Na máquina %d\n"
+
+#~ msgid "Copying to pilot..."
+#~ msgstr "Copiando ó pilot..."
+
+#~ msgid "Copying from pilot..."
+#~ msgstr "Copiando do pilot..."
+
+#~ msgid "Merging to pilot..."
+#~ msgstr "Mesturando ó pilot..."
+
+#~ msgid "Merging from pilot..."
+#~ msgstr "Mesturando do pilot..."
+
+#~ msgid "Using conduit settings for sync..."
+#~ msgstr "Usando as propiedades do conducto para a sincronización..."
+
+#~ msgid "Synchronization ended"
+#~ msgstr "A sincronización rematou"
+
+#~ msgid "Synchronization ended early"
+#~ msgstr "A sincronización rematou antes de tempo"
+
+#~ msgid "An error occured while getting the pilot's user data"
+#~ msgstr "Ocorreu un erro ó obte-los datos de usuario do pilot"
+
+#~ msgid "Completed events for cradle %s (%s)"
+#~ msgstr "Eventos completados para o soporte %s (%s)"
+
+#~ msgid "Unknown pilot, no userID/username match %ld"
+#~ msgstr "Pilot descoñecido, ningún ID ou nome de usuario concorda con %ld"
+
+#~ msgid ""
+#~ "Unknown pilot - no pilots matches ID %ld\n"
+#~ "Use gnomecc to set pilot's ID"
+#~ msgstr ""
+#~ "Pilot descoñecido - ningún pilot concorda co ID %ld\n"
+#~ "Utilice gnomecc para establece-lo ID do pilot"
+
+#~ msgid ""
+#~ "The base directory %s is invalid.\n"
+#~ "Please fix it or use gnomecc to choose another directory."
+#~ msgstr ""
+#~ "O directorio base %s non é válido.\n"
+#~ "Arránxeo ou use gnomecc para escoller outro directorio."
+
+#~ msgid "Woke on %s"
+#~ msgstr "Espertado %s"
+
+#, fuzzy
+#~ msgid "Listening on %s (%s)"
+#~ msgstr "Observando %s (%s)"
+
+#~ msgid "Watching %s (%s)"
+#~ msgstr "Observando %s (%s)"
+
+#~ msgid "Exiting (caught SIGTERM)..."
+#~ msgstr "Saíndo (recibido SIGTERM)..."
+
+#~ msgid "Exiting (caught SIGINT)..."
+#~ msgstr "Saíndo (recibido SIGINT)..."
+
+#~ msgid "Unable to open or create file %s with read/write privs"
+#~ msgstr ""
+#~ "Non se pode abrir ou crea-lo ficheiro %s con privilexios de lectura/"
+#~ "escritura"
+
+#~ msgid "Unable to find home directory for uid %d"
+#~ msgstr "Non se puido atopa-lo directorio persoal para o uid %d"
+
+#~ msgid "Rereading configuration..."
+#~ msgstr "Re-lendo a configuración..."
+
+#~ msgid "non-backup conduit in backup conduit list"
+#~ msgstr ""
+#~ "conducto que non fai copias de seguridade na lista de conductos con copia "
+#~ "de seguridade"
+
+#~ msgid "Synchronizing %s\n"
+#~ msgstr "Sincronizando %s\n"
+
+#~ msgid "Conduit %s's first synchronization..."
+#~ msgstr "Primeira sincronización do conducto %s..."
+
+#~ msgid "unknown syncing action (%d = %s).\n"
+#~ msgstr "acción de sincronización descoñecida (%d = %s).\n"
+
+#~ msgid "%s this request.type == %d is not a install/restore"
+#~ msgstr "%s este tipo de petición == %d non é instalar/restaurar"
+
+#~ msgid "Instantiating %d conduits..."
+#~ msgstr "Instanciando %d conductos..."
+
+#, fuzzy
+#~ msgid "Unknown conduit \"%s\" in configure!"
+#~ msgstr "¡Conducto \"%s\" descoñecido na configuración!"
+
+#~ msgid "Loading conduit \"%s\" failed!"
+#~ msgstr "¡Fallo ó carga-lo conducto \"%s\"!"
+
+#~ msgid "Loading conduit \"%s\" failed!\n"
+#~ msgstr "¡Fallo ó carga-lo conducto \"%s\"!\n"
+
+#~ msgid "Conduit %s requested, but not found"
+#~ msgstr "Solicitouse o conducto %s, pero non se atopou"
+
+#~ msgid "Conduit %s cannot be requested"
+#~ msgstr "Non se pode solicitar o conducto %s"
+
+#~ msgid "(unknown DB)"
+#~ msgstr "(base de datos descoñecida)"
+
+#~ msgid "The gnome-pilot daemon is already running"
+#~ msgstr "O demo gnome-pilot xa está a se executar"
+
+#~ msgid "fault: no request found for pilot %d, request %d"
+#~ msgstr "fallo: non se atopou a petición para o pilot %d, petición número %d"
+
+#~ msgid "module loading not supported, fatal!"
+#~ msgstr "carga de módulos non soportada, ¡erro grave!"
+
+#~ msgid "Unpause daemon"
+#~ msgstr "Activar o demo"
+
+#~ msgid "Set user id and name"
+#~ msgstr "Establecer o id de usuario e o nome"
+
+#~ msgid "ID for the pilot"
+#~ msgstr "ID para o pilot"
+
+#~ msgid "Install file"
+#~ msgstr "Instalar ficheiro"
+
+#~ msgid "FILE"
+#~ msgstr "FICHEIRO"
+
+#~ msgid "Restore directory"
+#~ msgstr "Restaurar directorio"
+
+#~ msgid "DIRECTORY"
+#~ msgstr "DIRECTORIO"
+
+#~ msgid "Run conduit"
+#~ msgstr "Executar conducto"
+
+#~ msgid "CONDUIT"
+#~ msgstr "CONDUCTO"
+
+#~ msgid "Username to set"
+#~ msgstr "Nome de usuario a establecer"
+
+#~ msgid "USERNAME"
+#~ msgstr "NOME_USUARIO"
+
+#~ msgid "Monitor the specified pilots actions"
+#~ msgstr "Monitoriza-las accións dos pilots especificados"
+
+#~ msgid "Monitor all pilots"
+#~ msgstr "Monitorizar tódolos pilots"
+
+#, fuzzy
+#~ msgid "list pilots by login (all for all pilots)"
+#~ msgstr "lista-los pilots polo login"
+
+#~ msgid "LOGIN"
+#~ msgstr "LOGIN"
+
+#~ msgid "Specify pilot to operate on (defaults to MyPilot)"
+#~ msgstr "Especifica-lo pilot no que operar (por defecto é MyPilot)"
+
+#~ msgid "PILOTNAME"
+#~ msgstr "NOME_DO_PILOT"
+
+#~ msgid "Specify a cradle to operate on (defaults to Cradle0)"
+#~ msgstr "Especificar un soporte no que operar (por defecto é Cradle0)"
+
+#~ msgid "CRADLENAME"
+#~ msgstr "NOME_DO_SOPORTE"
+
+#~ msgid "List the specifed pilot's bases"
+#~ msgstr "Lista-las bases dos pilots especificados"
+
+#~ msgid ""
+#~ "\n"
+#~ "BEWARE!!\n"
+#~ "This is a tool for certain parts of the gnome-pilot package.\n"
+#~ "Unless you know what you're doing, dont use this tool."
+#~ msgstr ""
+#~ "\n"
+#~ "¡¡COIDADO!!\n"
+#~ "Esta é unha ferramenta para certas partes do paquete gnome-pilot.\n"
+#~ "A menos que saiba o que está a facer, non use esta utilidade."
+
+#~ msgid "lists available conduits"
+#~ msgstr "lista os conductos dispoñibles"
+
+#~ msgid "conduit to operate on"
+#~ msgstr "conducto no que operar"
+
+#~ msgid "list all attributes"
+#~ msgstr "listar tódolos atributos"
+
+#~ msgid "specify pilot to operate on"
+#~ msgstr "especifica-lo pilot no que operar"
+
+#~ msgid "PILOTID"
+#~ msgstr "ID_DO_PILOT"
+
+#~ msgid "list attributes"
+#~ msgstr "listar atributos"
+
+#~ msgid "list available conduits and their state"
+#~ msgstr "lista-los conductos dispoñibles e o seu estado"
+
+#~ msgid "enable specified conduit"
+#~ msgstr "activa-lo conducto especificado"
+
+#~ msgid "disable specified conduit"
+#~ msgstr "desactiva-lo conducto especificado"
+
+#~ msgid "enable, and set firstsync to slow"
+#~ msgstr "activar, e establece-la primeira sincronización a lenta"
+
+#~ msgid "instantiate and destroy the conduit"
+#~ msgstr "instanciar e destruí-lo conducto"
+
+#~ msgid "A dnd and gui monitor for gpilotd."
+#~ msgstr "Un monitor gráfico con DnD para gpilotd."

@@ -1,0 +1,259 @@
+2005-11-03  JP Rosevear  <jpr@novell.com>
+
+	* memo_file_conduit.c: port to pl 0.12
+
+2005-08-10  JP Rosevear  <jpr@novell.com>
+
+	From Mark G. Adams <mark.g.adams@sympatico.ca>
+
+	* memo_file_conduit.c: fix several memory leaks
+
+2005-08-10  JP Rosevear  <jpr@novell.com>
+
+	* memo_file.conduit.in:  use LIBDIR and DATADIR for
+	substitution
+
+	* Makefile.am: clean .conduit files properly; create
+	.conduit file with new rule
+
+2005-02-03  JP Rosevear  <jpr@novell.com>
+
+	* Makefile.am: remove unnecessary local install rule
+
+2004-08-04  JP Rosevear <jpr@novell.com>
+
+	Pointed out by Nathen Owens
+	
+	* memo_file_conduit.c (load_categories): if the file does not
+	exist
+	
+2003-07-16  JP Rosevear  <jpr@ximian.com>
+
+	* memo_file_conduit.c (load_configuration): make a reasonable
+	default dir to prevent crash
+	(pre_sync): handle load records error a bit better
+
+	Fixes #114361
+
+2003-03-20  JP Rosevear  <jpr@ximian.com>
+
+	* memo_file_conduit.c (readOptionsCfg): don't read a negative
+	subscript
+	(load_configuration): ditto
+
+2003-01-26  Chris Toshok  <toshok@ximian.com>
+
+	* memo_file_conduit.c (backup_directory): G_FILE_TEST_ISDIR =>
+	G_FILE_TEST_IS_DIR.
+	(insert_ignore_space): fix compiler warning.
+
+	* Makefile.am (INCLUDES): simplify, use
+	GNOME_PILOT_CONDUITS_CFLAGS.
+	(libmemo_file_conduit_la_LIBADD): simplify, use
+	GNOME_PILOT_CONDUITS_LIBS.
+
+2001-06-18  Eskil Heyn Olsen  <eskil@eazel.com>
+
+	* memo_file_conduit.c: (conduit_get_gpilot_conduit):
+	another api tweak
+
+2001-06-13  Eskil Heyn Olsen  <eskil@eazel.com>
+
+	* memo_file_conduit.c: (pre_sync), (conduit_get_gpilot_conduit):
+        Updated for recent gnome-pilot changes.
+
+
+2001-03-01  JP Rosevear  <jpr@ximian.com>
+
+	* Makefile.am: Remove capplet foo
+
+2000-07-29  Fatih Demir  <kabalak@gmx.net> 
+
+	* memo_file_capplet.desktop: Added the Turkish desktop entries.
+
+2000-06-30  Seth Alves  <alves@hungry.com>
+
+	* Makefile.am (memo_file_capplet_LDADD): added BONOBO_VFS_GNOME_LIBS
+
+2000-05-02  Jacob Berkman  <jacob@helixcode.com>
+
+	* Makefile.am: copy .desktop to panel's Settings dir
+
+2000-04-30  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.c: Fix possible bad memory allocation.
+	Fix a few ineficiencies.
+
+2000-04-15  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.c: Use g_new0 to make sure that all 
+	allocations are	zeroed out. This should fix all the coredumps
+	that were being reported. bugs #7535,#5137,and their duplicates.
+	
+2000-03-21  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* memo_file_conduit.c (load_records): slight change in the
+	allocation and setting of local->filename.
+	(pre_sync): bail out if cfg->dir == NULL
+
+2000-03-12  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* Makefile.am, memo_file_capplet.c: Update to use new libgpilotdcm.
+
+2000-03-08  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* Makefile.am (INCLUDES): automake juju to make distcheck pass.
+
+2000-02-27  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* memo_file_conduit.c: Killed some warnings.
+
+2000-02-26  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.c: Remove warnings when MC_DEBUG is on.
+	Fix counting of deleted records for progress bar. If SetState to Deleted 
+	is called delete the record instead of just marking it such. This means it 
+	shouldn't be iterated over when requesting for deleted records.
+
+	* Makefile.am, memo_file_capplet.c, memo_file_conduit.[ch]: 
+	Switch to using new libgpilotd. Call bindtextdomain for translation. 
+	Move the load/save/copy config functions out of the header file and into
+	the capplet. Conduit only needs a specialized load_config function that
+	generates an error if config is not found. 
+
+2000-02-11  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.c: Fix buffer overwrite when the first
+	line of the memo is > 256 characters. Thanks to Diane Trout
+	for noticing this.
+	
+2000-01-31  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* Makefile.am : link with libgpilotdOLD and libgpilotdconduitOLD
+
+2000-01-30  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.c: Minor potential bug fix and remove a compile
+	warning.
+
+2000-01-14  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.c: Indicate correct record #'s for progress by
+ 	calling gnome_pilot_conduit_standard_abs_set_num_*_local_records functions.
+
+2000-01-08  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.[hc]: Update to use gpilotd_get_pilot_basedir
+	and gnome_pilot_conduit_standard_abs_set_db_open_mode.
+	Added pilotID argument to gpilotd_conduit_mgmt_new.
+	
+1999-12-29  Martin Norbäck  <d95mback@dtek.chalmers.se>
+
+	* memo_file_capplet.desktop: Added Swedish Translation
+
+1999-12-02  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.h: Undefine MC_DEBUG to avoid all debug output.
+	I hope it's stable enough at this point.
+
+1999-12-01  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.c: If local store is empty then force a slow sync.
+	Also it usually helps to free stuff after the last usage, Ouch.
+
+1999-11-21  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.[ch]: Fix the ID type in LoadInfo.
+
+1999-11-20  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.c: Add version printing [Pulled v0.5 out of the hat].
+	Fix iterate method. Fix ignore_file_name to correctly work when nothing
+	is ignored. Make all functions static to avoid possible conflicts 
+	with other conduits, that get loaded in gpilotd memory space.
+	Fix couple of memory leaks as reported by memprof.
+	Fix loading of localy deleted records.
+
+	* memo_file_capplet.c: first_sync_type should be set to the same as sync_type
+	or the wrong syncrhonization will get called on the first.
+
+1999-11-05  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_capplet.c, memo_file_conduit.[ch]: Added secret record Support 
+
+1999-11-02  Vadim Strizhevsky  <vadim@optonline.net>
+
+	* memo_file_conduit.[ch]: Move record spooling from destroy_conduit 
+	to purge where it belongs and remove synced flag which was used
+	specifically to avoid record spooling if no syncing happened.
+	Also fix return value from DeleteAll to success so that 
+	copy_from_pilot works.
+
+1999-11-01  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* Makefile.am: uses PISOCK_LIBDIR
+
+	* memo_file_capplet: calls the new gpilotd_conduit_mgmt_enable_with_first_sync
+
+1999-10-29 Vadim Strizhvesky <vadim@optonline.net>
+
+	* memo_file_capplet.c, memo_file_conduit.[ch]: Add feature
+	to ignore files that start/end with certain chars. Useful for emacs
+	~ backups, etc... Exposed all currently available features
+	through the capplet. Cleanup loging and reformat the code per
+	gnome standards.
+
+	* TODO: Added the list of items that still need to be done.
+
+1999-10-26 Vadim Strizhvesky <vadim@optonline.net>
+
+	* memo_file_capplet.c: Fix the look of the GtkOptionMenu. Also
+	change the resizing behavior. I think it looks a bit better now.
+	Minor code cleanup.
+	
+1999-10-25 Vadim Strizhvesky <vadim@optonline.net>
+
+	* memo_file_capplet.c: Change GtkCombo to be GtkOptionMenu as that is
+	more appropriate. Overall Gtk look still needs to be improved.
+	
+1999-10-25  Eskil Heyn Olsen  <deity@eskil.dk>
+
+	* memo_file_conduit.c (store_remote): replaced a // comment with a 
+	/* */ comment.
+
+1999-10-24 Vadim Strizhvesky <vadim@optonline.net>
+
+	* memo_file_capplet.c: fix Try/Revert/Save logic to actually work.
+
+	* memo_file_conduit.[ch]: spool files only if we actually did a sync.
+	
+1999-10-23 Vadim Strizhvesky <vadim@optonline.net>
+
+	* memo_file_conduit.c: fix file growth problem. On every sync "\n" was
+	being added to each memo.
+
+	* memo_file_capplet.c: Add combo box to choose conduit sync_type instead 
+	of enable/disable button. Sets the option correctly, but to actually work need 
+	more changes in gpilotd
+
+1999-10-22 Vadim Strizhvesky <vadim@optonline.net>
+
+	* memo_file_conduit.c: fix memory corruption in destroy_conduit
+	
+1999-10-20 Vadim Strizhvesky <vadim@optonline.net>
+
+	* memo_file_capplet.c, memo_conduit.h: add setting of the directory.
+	
+1999-10-22  Eskil Olsen <deity@eskil.dk>
+
+	* memo_file_capplet.c: patched pilot_id reading and use.
+
+1999-10-21  Eskil Olsen <deity@eskil.dk>
+
+	* memo_file_conduit.c: paranoia NULL pointer check before a
+	memcpy.
+
+1999-10-20 Vadim Strizhvesky <vadim@optonline.net>
+
+	*  Initial check-in of the converted memo_file conduit.
+	

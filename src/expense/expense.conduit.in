@@ -1,0 +1,9 @@
+<gnome-pilot-conduit version="1.0">
+	<conduit id="gpexpense1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libexpense_conduit.so"/>
+	<name value="Expense"/>
+	<conduit-attribute name="description" value="Extracts data from the expenses database"/>
+	<conduit-attribute name="default-synctype" value="synchronize"/>
+     	<conduit-attribute name="valid-synctypes" value="synchronize copy_from_pilot"/>
+     	<conduit-attribute name="settings" value="TRUE"/>
+     	<conduit-attribute name="icon" value="@DATADIR@/pixmaps/gnome-money.png"/>
+</gnome-pilot-conduit>

@@ -1,0 +1,255 @@
+# Portuguese translation for gnome-pilot-conduits
+# Copyright (C) 2000, 2003 gnome-pilot-conduits
+# Distributed under the same licence as the gnome-pilot-conduits package
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2003.
+# Carlos Morgado <chbm@chbm.nu>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-02-26 22:58+0000\n"
+"PO-Revision-Date: 2003-05-24 17:20+0000\n"
+"Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
+"Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: email/email_conduit.c:757
+msgid "Select an mbox file or an MH directory"
+msgstr "Seleccione um ficheiro mbox ou um directório MH"
+
+#. send_action option menu
+#: email/email_conduit.c:787
+#, fuzzy
+msgid "Send Action:"
+msgstr "Enviar Acção"
+
+#: email/email_conduit.c:791
+msgid "Delete from PDA"
+msgstr "Apagar do PDA"
+
+#: email/email_conduit.c:796
+msgid "File on PDA"
+msgstr "Ficheiro no PDA"
+
+#. from_address entry
+#: email/email_conduit.c:807
+msgid "From:"
+msgstr "De:"
+
+#. sendmail entry
+#: email/email_conduit.c:815
+#, fuzzy
+msgid "Sendmail command:"
+msgstr "Comando Sendmail"
+
+#. receive_action option menu
+#: email/email_conduit.c:823
+#, fuzzy
+msgid "Receive Action:"
+msgstr "Receber Acção"
+
+#: email/email_conduit.c:827
+msgid "Copy from Inbox"
+msgstr "Copiar da Caixa Entrada"
+
+#: email/email_conduit.c:832
+msgid "Delete from Inbox"
+msgstr "Apagar da Caixa Entrada"
+
+#: email/email_conduit.c:837
+msgid "Mirror Inbox"
+msgstr "Replicar Caixa Entrada"
+
+#. mbox_file entry
+#: email/email_conduit.c:848
+#, fuzzy
+msgid "Copy mail from:"
+msgstr "Copiar correio de"
+
+#: expense/expense_conduit.c:218
+msgid "Unknown Currency Symbol"
+msgstr "Símbolo Moeda Desconhecido"
+
+#: expense/expense_conduit.c:264 expense/expense_conduit.c:266
+msgid "No dir specified. Please run expense conduit capplet first."
+msgstr ""
+"Nenhum directório especificado. Execute primeiro a capplet conduta despesas."
+
+#: expense/expense_conduit.c:453
+msgid "Day/Month/Year"
+msgstr "Dia/Mês/Ano"
+
+#: expense/expense_conduit.c:454
+msgid "Month/Day/Year"
+msgstr "Mês/Dia/Ano"
+
+#: expense/expense_conduit.c:455
+msgid "Since 1970-01-01 (in sec)"
+msgstr "Desde 1970-01-01 (em segundos)"
+
+#: expense/expense_conduit.c:456
+msgid "Local format"
+msgstr "Formato local"
+
+#: expense/expense_conduit.c:465
+msgid "Simple"
+msgstr "Simples"
+
+#: expense/expense_conduit.c:466
+msgid "Complex"
+msgstr "Complexo"
+
+#: expense/expense_conduit.c:478
+#, fuzzy
+msgid "Expense Directory:"
+msgstr "Directório Despesas"
+
+#: expense/expense_conduit.c:479
+#, fuzzy
+msgid "Directory Mode:"
+msgstr "Modo Directório"
+
+#: expense/expense_conduit.c:480
+#, fuzzy
+msgid "File Mode:"
+msgstr "Modo Ficheiros"
+
+#. set the date format
+#: expense/expense_conduit.c:502
+#, fuzzy
+msgid "Date Format:"
+msgstr "Formato Data"
+
+#. set the writeout format
+#: expense/expense_conduit.c:522
+#, fuzzy
+msgid "Output Format:"
+msgstr "Formato Saída"
+
+#: memo_file/memo_file_conduit.c:1253
+msgid "Memos directory:"
+msgstr "Directório memos:"
+
+#: memo_file/memo_file_conduit.c:1254
+msgid "Ignore start:"
+msgstr "Ignorar início:"
+
+#: memo_file/memo_file_conduit.c:1255
+msgid "Ignore end:"
+msgstr "Ignorar fim:"
+
+#: memo_file/memo_file_conduit.c:1256
+msgid "Directory mode:"
+msgstr "Modo directório:"
+
+#: memo_file/memo_file_conduit.c:1257
+msgid "Files mode:"
+msgstr "Modo ficheiros:"
+
+#: memo_file/memo_file_conduit.c:1258
+msgid "Secret files mode:"
+msgstr "Modo ficheiros secretos:"
+
+#: memo_file/memo_file_conduit.c:1470 memo_file/memo_file_conduit.c:1472
+msgid "No dir specified. Please run memo_file conduit capplet first."
+msgstr ""
+"Nenhum directório especificado. Execute primeiro a capplet conduta memo_file."
+
+#: mal-conduit/src/mal-conduit.c:146
+msgid "Already synchronized today"
+msgstr "Já sincronizou hoje"
+
+#: mal-conduit/src/mal-conduit.c:298
+msgid "Only sync MAL once a day"
+msgstr "Apenas sincronizar MAL uma vez por dia"
+
+#: mal-conduit/src/mal-conduit-capplet.c:118
+#: memo/memo-conduit-control-applet.c:135
+msgid "Eskil Heyn Olsen <deity@eskil.dk>"
+msgstr "Eskil Heyn Olsen <deity@eskil.dk>"
+
+#: mal-conduit/src/mal-conduit-capplet.c:120
+#, fuzzy
+msgid "Gnome Pilot MAL conduit"
+msgstr "Conduta memos Gpilotd"
+
+#: mal-conduit/src/mal-conduit-capplet.c:121
+#, fuzzy
+msgid "(C) 1999 the Free Software Foundation"
+msgstr "(C) 1998 a Free Software Foundation"
+
+#: mal-conduit/src/mal-conduit-capplet.c:123
+msgid ""
+"Configuration utility for the MAL conduit.\n"
+"MAL is the Mobile Application Link protocol, see www.mobilelink.org for more."
+msgstr ""
+
+#: mal-conduit/src/mal-conduit-capplet.c:126
+#: memo/memo-conduit-control-applet.c:141
+msgid "gnome-unknown.xpm"
+msgstr "gnome-unknown.xpm"
+
+#: mal-conduit/src/mal-conduit-capplet.c:153
+#: memo/memo-conduit-control-applet.c:166
+msgid "Enabled"
+msgstr "Activa"
+
+#: mal-conduit/src/mal-conduit-capplet.c:206
+#: memo/memo-conduit-control-applet.c:219
+msgid "Conduit state"
+msgstr "Estado conduta"
+
+#: mal-conduit/src/mal-conduit-capplet.c:250
+#: mal-conduit/src/mal-conduit-capplet.c:265
+#: memo/memo-conduit-control-applet.c:260
+#: memo/memo-conduit-control-applet.c:271
+msgid ""
+"No pilot configured, please choose the\n"
+"'Pilot Link Properties' capplet first."
+msgstr ""
+"Nenhuma pilot configurada, seleccione\n"
+"primeiro a capplet 'Propriedades Ligação Pilot'."
+
+#: mal-conduit/src/mal-conduit-capplet.c:271
+#, fuzzy
+msgid "Not connected to the gnome-pilot daemon"
+msgstr "Incapaz de se ligar ao Daemon GnomePilot"
+
+#: mal-conduit/src/mal-conduit-capplet.c:276
+msgid ""
+"An error occurred when trying to fetch\n"
+"pilot list from the gnome-pilot daemon"
+msgstr ""
+
+#: memo/memo-conduit-control-applet.c:137
+msgid "Gpilotd memo conduit"
+msgstr "Conduta memos Gpilotd"
+
+#: memo/memo-conduit-control-applet.c:138
+msgid "(C) 1998 the Free Software Foundation"
+msgstr "(C) 1998 a Free Software Foundation"
+
+#: memo/memo-conduit-control-applet.c:140
+msgid "Configuration utility for the memo conduit.\n"
+msgstr "Utilitário de configuração para a conduta memos.\n"
+
+#: memo/memo-conduit-control-applet.c:288
+#: memo/memo-conduit-control-applet.c:289
+msgid "Cannot initialze the GnomePilot Daemon"
+msgstr "Incapaz de inicializar o Daemon GnomePilot"
+
+#: memo/memo-conduit-control-applet.c:295
+#: memo/memo-conduit-control-applet.c:296
+msgid "Cannot connect to the GnomePilot Daemon"
+msgstr "Incapaz de se ligar ao Daemon GnomePilot"
+
+#: time/time-conduit.c:123
+msgid "Please note, that PalmOS 3.3 can not properly set the time."
+msgstr "Note que o PalmOS 3.3 não é capaz de definir a hora correctamente."
+
+#: time/time-conduit.c:197
+msgid "Unable to set time due to PalmOS 3.3"
+msgstr "Incapaz de definir a hora devido ao PalmOS 3.3"

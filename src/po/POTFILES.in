@@ -1,0 +1,10 @@
+email/email_conduit.c
+email/email_conduit.h
+expense/expense_conduit.c
+expense/expense_conduit.h
+memo_file/memo_file_conduit.c
+memo_file/memo_file_conduit.h
+mal-conduit/src/mal-conduit.c
+mal-conduit/src/mal-conduit-capplet.c
+memo/memo-conduit-control-applet.c
+time/time-conduit.c

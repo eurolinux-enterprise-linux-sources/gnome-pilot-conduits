@@ -1,0 +1,2 @@
+SUBDIRS = common unix
+DIST_SUBDIRS = $(SUBDIRS)

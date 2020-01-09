@@ -1,0 +1,60 @@
+Why only new/changed records appear on the host?
+------------------------------------------------
+
+Sometimes, after initially syncing memo_file conduit you will only see
+new/recently changed Memos on the local host, while everything is
+still on the pilot. The problem is due to the fact that FastSync was
+being performed instead of necessary initial SlowSync. To remedy the
+problem force the SlowSync once. To do this simply change SyncPCid on
+the PilotLink control panel (add 1 for example) After that the next
+sync should be SlowSync and all your memos from pilot should be copied
+to the host. You only need to do this once and all the following sync
+_should_ correctly update any changes. In future we'll try to catch
+this situation and force a SlowSync automatically.
+
+
+How the conduit stores ids
+--------------------------
+
+In the main directory, a file called .categories of the format
+	categorynumber;categoryname
+is used to assign the category id to the records
+
+In each category directory, theres a file called .ids, it contains
+	id:secret:mtime;filename
+used for matching a local file to a pilot record (the id),
+and to  figure out when local record was updated.
+
+mtime is actually the same for everything and is basically the last sync time,
+but this was easier. Perhaps it should be global.
+
+How to manipulate files locally
+-------------------------------
+
+You should not do the following :
+	- rename categories, the conduit won't be able to assign a category to	
+ 	the record, and the record will end in Unfiled. 
+	- rename files, since the .ids containing the RecordId won't be in sync
+	- move files, again, the .ids file will be out of sync
+
+You can do:
+	- delete a file, the file will be deleted on the pilot
+        - add a file to a category, if the filename can't be found in the .ids file,
+	the record is marked as new.
+	- edit a file, don't worry about the title of the memo (the first line of the
+	file), it will be correct on the pilot, and after sync, the file will have
+	the new name, just don't rename it.
+
+
+How to remedy the things that can't be done locally?
+----------------------------------------------------
+
+Well, you can either rewrite the conduit, I had thought about writing the id and
+secret attribute in the filename, but that would yield files like
+	"Memos/Unfiles/34254543.1.Story about a conduit"
+yech.
+
+Or you could write a tool to do it, maybe a vfs for mc ?
+
+---
+eskil, 1998

@@ -1,0 +1,8 @@
+
+o Support renaming/adding of the Categories on the local host. [How? special tool? ]
+o Support moving Memos from one Category to the other. [How? special tool?]
+o Support marking records secret on local host.
+o Improve/Investigate performance. If there are alot of records spooling, it may
+  take a long time. Perhaps writing out record at the time while inside a conduit
+  is faster? or perhaps not?
+ 

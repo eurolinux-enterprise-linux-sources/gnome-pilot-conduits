@@ -1,0 +1,8 @@
+<gnome-pilot-conduit version="1.0">
+<conduit id="gpsendmail1" type="shlib" location="@LIBDIR@/gnome-pilot/conduits/libemail_conduit.so"/>
+<name value="Sendmail"/>
+<conduit-attribute name="description" value="Mails your Palm emails via sendmail"/>
+<conduit-attribute name="default-synctype" value="custom"/>
+<conduit-attribute name="settings" value="TRUE"/>
+<conduit-attribute name="icon" value="@DATADIR@/pixmaps/gnome-mailcheck.png"/>
+</gnome-pilot-conduit>

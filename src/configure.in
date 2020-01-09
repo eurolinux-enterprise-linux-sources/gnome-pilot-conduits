@@ -1,0 +1,77 @@
+AC_INIT(configure.in)
+AM_INIT_AUTOMAKE(gnome-pilot-conduits,2.0.17)
+RELEASE=1
+AC_SUBST(RELEASE)
+
+AM_PROG_LIBTOOL
+
+AM_MAINTAINER_MODE
+AM_CONFIG_HEADER(config.h)
+
+AC_ISC_POSIX
+AC_PROG_CC
+AC_PROG_CXX
+AC_PROG_YACC
+AC_STDC_HEADERS
+AC_ARG_PROGRAM
+AC_TYPE_SIGNAL
+
+PKG_PROG_PKG_CONFIG
+
+dnl ******************************
+dnl Library Checks
+dnl ******************************
+LIBGNOME_REQUIRED="libgnome-2.0 >= 2.0.0"
+GNOME_PILOT_REQUIRED="gnome-pilot-2.0 >= 2.0.13"
+LIBXML_REQUIRED="libxml-2.0"
+
+PKG_CHECK_MODULES(GNOME_PILOT_CONDUITS,
+[
+	$LIBGNOME_REQUIRED
+	$GNOME_PILOT_REQUIRED
+	$LIBXML_REQUIRED
+])
+AC_SUBST(GNOME_PILOT_CONDUITS_CFLAGS)
+AC_SUBST(GNOME_PILOT_CONDUITS_LIBS)
+
+dnl ******************************
+dnl Pilot Link Version Check
+dnl ******************************
+plversion=`$PKG_CONFIG --variable=gnomepilot_plversion gnome-pilot-2.0`
+pl_mi=`echo $plversion|sed 's/\([[0-9]]*\).\([[0-9]]*\).\([[0-9]]*\).*/\2/'`
+
+if test $pl_mi -ge 12; then
+	AC_DEFINE(PILOT_LINK_0_12,,[Building against pilot-link 0.12.0 or greater])
+fi
+
+dnl **************************************************
+dnl * Conduit files
+dnl **************************************************
+GPC_CONDUIT_RULE=$srcdir/conduit.mk
+AC_SUBST_FILE(GPC_CONDUIT_RULE)
+
+dnl **************************************************
+dnl * internationalization support
+dnl **************************************************
+GETTEXT_PACKAGE=gnome-pilot-conduits
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [gettext package name])
+ALL_LINGUAS="ar az be bg ca cs da de dz el en_CA en_GB es fi fr gl he hr hu it ja lv mk ml ms nb ne nl nn pa oc pl pt pt_BR ru rw sk sq sr sr@Latn sv tr uk vi wa xh zh_CN zh_HK zh_TW"
+AM_GLIB_GNU_GETTEXT
+
+AC_OUTPUT([
+Makefile
+email/Makefile
+expense/Makefile
+memo_file/Makefile
+time/Makefile
+mal-conduit/Makefile
+mal-conduit/src/Makefile
+mal-conduit/mal/Makefile
+mal-conduit/mal/common/Makefile
+mal-conduit/mal/client/Makefile
+mal-conduit/mal/client/common/Makefile
+mal-conduit/mal/client/unix/Makefile
+gnome-pilot-conduits.spec
+po/Makefile.in
+])
